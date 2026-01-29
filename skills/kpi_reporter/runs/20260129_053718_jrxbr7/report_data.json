@@ -1,0 +1,1075 @@
+{
+  "timeWindow": {
+    "label": "2024-01-08 至 2024-01-21",
+    "start": "2024-01-08",
+    "end": "2024-01-21",
+    "previousStart": "2023-12-25",
+    "previousEnd": "2024-01-07"
+  },
+  "kpis": {
+    "current": [
+      {
+        "name": "Leads",
+        "value": 701,
+        "description": "总线索数"
+      },
+      {
+        "name": "Customers",
+        "value": 185,
+        "description": "新客户数"
+      },
+      {
+        "name": "Spend",
+        "value": 29200,
+        "description": "广告支出"
+      },
+      {
+        "name": "Revenue",
+        "value": 156400,
+        "description": "总收入"
+      },
+      {
+        "name": "Orders",
+        "value": 782,
+        "description": "订单数"
+      },
+      {
+        "name": "PageViews",
+        "value": 62440,
+        "description": "页面浏览量"
+      },
+      {
+        "name": "Sessions",
+        "value": 21300,
+        "description": "会话数"
+      },
+      {
+        "name": "CAC",
+        "value": 157.83783783783784,
+        "description": "客户获取成本"
+      },
+      {
+        "name": "ConversionRate",
+        "value": 0.26390870185449355,
+        "description": "转化率"
+      },
+      {
+        "name": "ARPU",
+        "value": 845.4054054054054,
+        "description": "每用户平均收入"
+      }
+    ],
+    "previous": [
+      {
+        "name": "Leads",
+        "value": 0,
+        "description": "总线索数"
+      },
+      {
+        "name": "Customers",
+        "value": 0,
+        "description": "新客户数"
+      },
+      {
+        "name": "Spend",
+        "value": 0,
+        "description": "广告支出"
+      },
+      {
+        "name": "Revenue",
+        "value": 0,
+        "description": "总收入"
+      },
+      {
+        "name": "Orders",
+        "value": 0,
+        "description": "订单数"
+      },
+      {
+        "name": "PageViews",
+        "value": 0,
+        "description": "页面浏览量"
+      },
+      {
+        "name": "Sessions",
+        "value": 0,
+        "description": "会话数"
+      },
+      {
+        "name": "CAC",
+        "value": 0,
+        "description": "客户获取成本"
+      },
+      {
+        "name": "ConversionRate",
+        "value": 0,
+        "description": "转化率"
+      },
+      {
+        "name": "ARPU",
+        "value": 0,
+        "description": "每用户平均收入"
+      }
+    ]
+  },
+  "bySource": {
+    "ads": [
+      {
+        "metric": "ad_spend",
+        "value": 29200
+      },
+      {
+        "metric": "clicks",
+        "value": 11300
+      }
+    ],
+    "crm": [
+      {
+        "metric": "leads",
+        "value": 701
+      },
+      {
+        "metric": "customers",
+        "value": 185
+      }
+    ],
+    "orders": [
+      {
+        "metric": "orders",
+        "value": 782
+      },
+      {
+        "metric": "revenue",
+        "value": 156400
+      }
+    ],
+    "web": [
+      {
+        "metric": "page_views",
+        "value": 62440
+      },
+      {
+        "metric": "sessions",
+        "value": 21300
+      }
+    ]
+  },
+  "rawPreview": [
+    {
+      "date": "2024-01-08",
+      "source": "ads",
+      "metric": "ad_spend",
+      "value": 1200,
+      "dims": {
+        "campaign": "brand_awareness",
+        "channel": "google"
+      }
+    },
+    {
+      "date": "2024-01-08",
+      "source": "ads",
+      "metric": "ad_spend",
+      "value": 800,
+      "dims": {
+        "campaign": "lead_gen",
+        "channel": "facebook"
+      }
+    },
+    {
+      "date": "2024-01-08",
+      "source": "ads",
+      "metric": "clicks",
+      "value": 450,
+      "dims": {
+        "campaign": "brand_awareness",
+        "channel": "google"
+      }
+    },
+    {
+      "date": "2024-01-08",
+      "source": "ads",
+      "metric": "clicks",
+      "value": 320,
+      "dims": {
+        "campaign": "lead_gen",
+        "channel": "facebook"
+      }
+    },
+    {
+      "date": "2024-01-09",
+      "source": "ads",
+      "metric": "ad_spend",
+      "value": 1350,
+      "dims": {
+        "campaign": "brand_awareness",
+        "channel": "google"
+      }
+    },
+    {
+      "date": "2024-01-09",
+      "source": "ads",
+      "metric": "ad_spend",
+      "value": 920,
+      "dims": {
+        "campaign": "lead_gen",
+        "channel": "facebook"
+      }
+    },
+    {
+      "date": "2024-01-09",
+      "source": "ads",
+      "metric": "clicks",
+      "value": 510,
+      "dims": {
+        "campaign": "brand_awareness",
+        "channel": "google"
+      }
+    },
+    {
+      "date": "2024-01-09",
+      "source": "ads",
+      "metric": "clicks",
+      "value": 380,
+      "dims": {
+        "campaign": "lead_gen",
+        "channel": "facebook"
+      }
+    },
+    {
+      "date": "2024-01-10",
+      "source": "ads",
+      "metric": "ad_spend",
+      "value": 1100,
+      "dims": {
+        "campaign": "brand_awareness",
+        "channel": "google"
+      }
+    },
+    {
+      "date": "2024-01-10",
+      "source": "ads",
+      "metric": "ad_spend",
+      "value": 750,
+      "dims": {
+        "campaign": "lead_gen",
+        "channel": "facebook"
+      }
+    },
+    {
+      "date": "2024-01-10",
+      "source": "ads",
+      "metric": "clicks",
+      "value": 420,
+      "dims": {
+        "campaign": "brand_awareness",
+        "channel": "google"
+      }
+    },
+    {
+      "date": "2024-01-10",
+      "source": "ads",
+      "metric": "clicks",
+      "value": 290,
+      "dims": {
+        "campaign": "lead_gen",
+        "channel": "facebook"
+      }
+    },
+    {
+      "date": "2024-01-11",
+      "source": "ads",
+      "metric": "ad_spend",
+      "value": 1500,
+      "dims": {
+        "campaign": "brand_awareness",
+        "channel": "google"
+      }
+    },
+    {
+      "date": "2024-01-11",
+      "source": "ads",
+      "metric": "ad_spend",
+      "value": 1050,
+      "dims": {
+        "campaign": "lead_gen",
+        "channel": "facebook"
+      }
+    },
+    {
+      "date": "2024-01-11",
+      "source": "ads",
+      "metric": "clicks",
+      "value": 580,
+      "dims": {
+        "campaign": "brand_awareness",
+        "channel": "google"
+      }
+    },
+    {
+      "date": "2024-01-11",
+      "source": "ads",
+      "metric": "clicks",
+      "value": 410,
+      "dims": {
+        "campaign": "lead_gen",
+        "channel": "facebook"
+      }
+    },
+    {
+      "date": "2024-01-12",
+      "source": "ads",
+      "metric": "ad_spend",
+      "value": 1280,
+      "dims": {
+        "campaign": "brand_awareness",
+        "channel": "google"
+      }
+    },
+    {
+      "date": "2024-01-12",
+      "source": "ads",
+      "metric": "ad_spend",
+      "value": 890,
+      "dims": {
+        "campaign": "lead_gen",
+        "channel": "facebook"
+      }
+    },
+    {
+      "date": "2024-01-12",
+      "source": "ads",
+      "metric": "clicks",
+      "value": 490,
+      "dims": {
+        "campaign": "brand_awareness",
+        "channel": "google"
+      }
+    },
+    {
+      "date": "2024-01-12",
+      "source": "ads",
+      "metric": "clicks",
+      "value": 350,
+      "dims": {
+        "campaign": "lead_gen",
+        "channel": "facebook"
+      }
+    },
+    {
+      "date": "2024-01-13",
+      "source": "ads",
+      "metric": "ad_spend",
+      "value": 950,
+      "dims": {
+        "campaign": "brand_awareness",
+        "channel": "google"
+      }
+    },
+    {
+      "date": "2024-01-13",
+      "source": "ads",
+      "metric": "ad_spend",
+      "value": 620,
+      "dims": {
+        "campaign": "lead_gen",
+        "channel": "facebook"
+      }
+    },
+    {
+      "date": "2024-01-13",
+      "source": "ads",
+      "metric": "clicks",
+      "value": 360,
+      "dims": {
+        "campaign": "brand_awareness",
+        "channel": "google"
+      }
+    },
+    {
+      "date": "2024-01-13",
+      "source": "ads",
+      "metric": "clicks",
+      "value": 240,
+      "dims": {
+        "campaign": "lead_gen",
+        "channel": "facebook"
+      }
+    },
+    {
+      "date": "2024-01-14",
+      "source": "ads",
+      "metric": "ad_spend",
+      "value": 1050,
+      "dims": {
+        "campaign": "brand_awareness",
+        "channel": "google"
+      }
+    },
+    {
+      "date": "2024-01-14",
+      "source": "ads",
+      "metric": "ad_spend",
+      "value": 710,
+      "dims": {
+        "campaign": "lead_gen",
+        "channel": "facebook"
+      }
+    },
+    {
+      "date": "2024-01-14",
+      "source": "ads",
+      "metric": "clicks",
+      "value": 400,
+      "dims": {
+        "campaign": "brand_awareness",
+        "channel": "google"
+      }
+    },
+    {
+      "date": "2024-01-14",
+      "source": "ads",
+      "metric": "clicks",
+      "value": 280,
+      "dims": {
+        "campaign": "lead_gen",
+        "channel": "facebook"
+      }
+    },
+    {
+      "date": "2024-01-15",
+      "source": "ads",
+      "metric": "ad_spend",
+      "value": 1400,
+      "dims": {
+        "campaign": "brand_awareness",
+        "channel": "google"
+      }
+    },
+    {
+      "date": "2024-01-15",
+      "source": "ads",
+      "metric": "ad_spend",
+      "value": 980,
+      "dims": {
+        "campaign": "lead_gen",
+        "channel": "facebook"
+      }
+    },
+    {
+      "date": "2024-01-15",
+      "source": "ads",
+      "metric": "clicks",
+      "value": 540,
+      "dims": {
+        "campaign": "brand_awareness",
+        "channel": "google"
+      }
+    },
+    {
+      "date": "2024-01-15",
+      "source": "ads",
+      "metric": "clicks",
+      "value": 390,
+      "dims": {
+        "campaign": "lead_gen",
+        "channel": "facebook"
+      }
+    },
+    {
+      "date": "2024-01-16",
+      "source": "ads",
+      "metric": "ad_spend",
+      "value": 1550,
+      "dims": {
+        "campaign": "brand_awareness",
+        "channel": "google"
+      }
+    },
+    {
+      "date": "2024-01-16",
+      "source": "ads",
+      "metric": "ad_spend",
+      "value": 1100,
+      "dims": {
+        "campaign": "lead_gen",
+        "channel": "facebook"
+      }
+    },
+    {
+      "date": "2024-01-16",
+      "source": "ads",
+      "metric": "clicks",
+      "value": 600,
+      "dims": {
+        "campaign": "brand_awareness",
+        "channel": "google"
+      }
+    },
+    {
+      "date": "2024-01-16",
+      "source": "ads",
+      "metric": "clicks",
+      "value": 430,
+      "dims": {
+        "campaign": "lead_gen",
+        "channel": "facebook"
+      }
+    },
+    {
+      "date": "2024-01-17",
+      "source": "ads",
+      "metric": "ad_spend",
+      "value": 1250,
+      "dims": {
+        "campaign": "brand_awareness",
+        "channel": "google"
+      }
+    },
+    {
+      "date": "2024-01-17",
+      "source": "ads",
+      "metric": "ad_spend",
+      "value": 870,
+      "dims": {
+        "campaign": "lead_gen",
+        "channel": "facebook"
+      }
+    },
+    {
+      "date": "2024-01-17",
+      "source": "ads",
+      "metric": "clicks",
+      "value": 480,
+      "dims": {
+        "campaign": "brand_awareness",
+        "channel": "google"
+      }
+    },
+    {
+      "date": "2024-01-17",
+      "source": "ads",
+      "metric": "clicks",
+      "value": 340,
+      "dims": {
+        "campaign": "lead_gen",
+        "channel": "facebook"
+      }
+    },
+    {
+      "date": "2024-01-18",
+      "source": "ads",
+      "metric": "ad_spend",
+      "value": 1180,
+      "dims": {
+        "campaign": "brand_awareness",
+        "channel": "google"
+      }
+    },
+    {
+      "date": "2024-01-18",
+      "source": "ads",
+      "metric": "ad_spend",
+      "value": 820,
+      "dims": {
+        "campaign": "lead_gen",
+        "channel": "facebook"
+      }
+    },
+    {
+      "date": "2024-01-18",
+      "source": "ads",
+      "metric": "clicks",
+      "value": 450,
+      "dims": {
+        "campaign": "brand_awareness",
+        "channel": "google"
+      }
+    },
+    {
+      "date": "2024-01-18",
+      "source": "ads",
+      "metric": "clicks",
+      "value": 320,
+      "dims": {
+        "campaign": "lead_gen",
+        "channel": "facebook"
+      }
+    },
+    {
+      "date": "2024-01-19",
+      "source": "ads",
+      "metric": "ad_spend",
+      "value": 1380,
+      "dims": {
+        "campaign": "brand_awareness",
+        "channel": "google"
+      }
+    },
+    {
+      "date": "2024-01-19",
+      "source": "ads",
+      "metric": "ad_spend",
+      "value": 960,
+      "dims": {
+        "campaign": "lead_gen",
+        "channel": "facebook"
+      }
+    },
+    {
+      "date": "2024-01-19",
+      "source": "ads",
+      "metric": "clicks",
+      "value": 530,
+      "dims": {
+        "campaign": "brand_awareness",
+        "channel": "google"
+      }
+    },
+    {
+      "date": "2024-01-19",
+      "source": "ads",
+      "metric": "clicks",
+      "value": 380,
+      "dims": {
+        "campaign": "lead_gen",
+        "channel": "facebook"
+      }
+    },
+    {
+      "date": "2024-01-20",
+      "source": "ads",
+      "metric": "ad_spend",
+      "value": 1020,
+      "dims": {
+        "campaign": "brand_awareness",
+        "channel": "google"
+      }
+    },
+    {
+      "date": "2024-01-20",
+      "source": "ads",
+      "metric": "ad_spend",
+      "value": 680,
+      "dims": {
+        "campaign": "lead_gen",
+        "channel": "facebook"
+      }
+    },
+    {
+      "date": "2024-01-20",
+      "source": "ads",
+      "metric": "clicks",
+      "value": 390,
+      "dims": {
+        "campaign": "brand_awareness",
+        "channel": "google"
+      }
+    },
+    {
+      "date": "2024-01-20",
+      "source": "ads",
+      "metric": "clicks",
+      "value": 260,
+      "dims": {
+        "campaign": "lead_gen",
+        "channel": "facebook"
+      }
+    },
+    {
+      "date": "2024-01-21",
+      "source": "ads",
+      "metric": "ad_spend",
+      "value": 1100,
+      "dims": {
+        "campaign": "brand_awareness",
+        "channel": "google"
+      }
+    },
+    {
+      "date": "2024-01-21",
+      "source": "ads",
+      "metric": "ad_spend",
+      "value": 740,
+      "dims": {
+        "campaign": "lead_gen",
+        "channel": "facebook"
+      }
+    },
+    {
+      "date": "2024-01-21",
+      "source": "ads",
+      "metric": "clicks",
+      "value": 420,
+      "dims": {
+        "campaign": "brand_awareness",
+        "channel": "google"
+      }
+    },
+    {
+      "date": "2024-01-21",
+      "source": "ads",
+      "metric": "clicks",
+      "value": 290,
+      "dims": {
+        "campaign": "lead_gen",
+        "channel": "facebook"
+      }
+    },
+    {
+      "date": "2024-01-08",
+      "source": "crm",
+      "metric": "leads",
+      "value": 45,
+      "dims": {}
+    },
+    {
+      "date": "2024-01-08",
+      "source": "crm",
+      "metric": "customers",
+      "value": 12,
+      "dims": {}
+    },
+    {
+      "date": "2024-01-09",
+      "source": "crm",
+      "metric": "leads",
+      "value": 52,
+      "dims": {}
+    },
+    {
+      "date": "2024-01-09",
+      "source": "crm",
+      "metric": "customers",
+      "value": 15,
+      "dims": {}
+    },
+    {
+      "date": "2024-01-10",
+      "source": "crm",
+      "metric": "leads",
+      "value": 48,
+      "dims": {}
+    },
+    {
+      "date": "2024-01-10",
+      "source": "crm",
+      "metric": "customers",
+      "value": 11,
+      "dims": {}
+    },
+    {
+      "date": "2024-01-11",
+      "source": "crm",
+      "metric": "leads",
+      "value": 61,
+      "dims": {}
+    },
+    {
+      "date": "2024-01-11",
+      "source": "crm",
+      "metric": "customers",
+      "value": 18,
+      "dims": {}
+    },
+    {
+      "date": "2024-01-12",
+      "source": "crm",
+      "metric": "leads",
+      "value": 55,
+      "dims": {}
+    },
+    {
+      "date": "2024-01-12",
+      "source": "crm",
+      "metric": "customers",
+      "value": 14,
+      "dims": {}
+    },
+    {
+      "date": "2024-01-13",
+      "source": "crm",
+      "metric": "leads",
+      "value": 38,
+      "dims": {}
+    },
+    {
+      "date": "2024-01-13",
+      "source": "crm",
+      "metric": "customers",
+      "value": 9,
+      "dims": {}
+    },
+    {
+      "date": "2024-01-14",
+      "source": "crm",
+      "metric": "leads",
+      "value": 42,
+      "dims": {}
+    },
+    {
+      "date": "2024-01-14",
+      "source": "crm",
+      "metric": "customers",
+      "value": 10,
+      "dims": {}
+    },
+    {
+      "date": "2024-01-15",
+      "source": "crm",
+      "metric": "leads",
+      "value": 58,
+      "dims": {}
+    },
+    {
+      "date": "2024-01-15",
+      "source": "crm",
+      "metric": "customers",
+      "value": 16,
+      "dims": {}
+    },
+    {
+      "date": "2024-01-16",
+      "source": "crm",
+      "metric": "leads",
+      "value": 63,
+      "dims": {}
+    },
+    {
+      "date": "2024-01-16",
+      "source": "crm",
+      "metric": "customers",
+      "value": 19,
+      "dims": {}
+    },
+    {
+      "date": "2024-01-17",
+      "source": "crm",
+      "metric": "leads",
+      "value": 51,
+      "dims": {}
+    },
+    {
+      "date": "2024-01-17",
+      "source": "crm",
+      "metric": "customers",
+      "value": 13,
+      "dims": {}
+    },
+    {
+      "date": "2024-01-18",
+      "source": "crm",
+      "metric": "leads",
+      "value": 47,
+      "dims": {}
+    },
+    {
+      "date": "2024-01-18",
+      "source": "crm",
+      "metric": "customers",
+      "value": 12,
+      "dims": {}
+    },
+    {
+      "date": "2024-01-19",
+      "source": "crm",
+      "metric": "leads",
+      "value": 56,
+      "dims": {}
+    },
+    {
+      "date": "2024-01-19",
+      "source": "crm",
+      "metric": "customers",
+      "value": 15,
+      "dims": {}
+    },
+    {
+      "date": "2024-01-20",
+      "source": "crm",
+      "metric": "leads",
+      "value": 41,
+      "dims": {}
+    },
+    {
+      "date": "2024-01-20",
+      "source": "crm",
+      "metric": "customers",
+      "value": 10,
+      "dims": {}
+    },
+    {
+      "date": "2024-01-21",
+      "source": "crm",
+      "metric": "leads",
+      "value": 44,
+      "dims": {}
+    },
+    {
+      "date": "2024-01-21",
+      "source": "crm",
+      "metric": "customers",
+      "value": 11,
+      "dims": {}
+    },
+    {
+      "date": "2024-01-08",
+      "source": "orders",
+      "metric": "orders",
+      "value": 28,
+      "dims": {
+        "product": "product_a",
+        "region": "north"
+      }
+    },
+    {
+      "date": "2024-01-08",
+      "source": "orders",
+      "metric": "orders",
+      "value": 22,
+      "dims": {
+        "product": "product_b",
+        "region": "south"
+      }
+    },
+    {
+      "date": "2024-01-08",
+      "source": "orders",
+      "metric": "revenue",
+      "value": 5600,
+      "dims": {
+        "product": "product_a",
+        "region": "north"
+      }
+    },
+    {
+      "date": "2024-01-08",
+      "source": "orders",
+      "metric": "revenue",
+      "value": 4400,
+      "dims": {
+        "product": "product_b",
+        "region": "south"
+      }
+    },
+    {
+      "date": "2024-01-09",
+      "source": "orders",
+      "metric": "orders",
+      "value": 35,
+      "dims": {
+        "product": "product_a",
+        "region": "north"
+      }
+    },
+    {
+      "date": "2024-01-09",
+      "source": "orders",
+      "metric": "orders",
+      "value": 28,
+      "dims": {
+        "product": "product_b",
+        "region": "south"
+      }
+    },
+    {
+      "date": "2024-01-09",
+      "source": "orders",
+      "metric": "revenue",
+      "value": 7000,
+      "dims": {
+        "product": "product_a",
+        "region": "north"
+      }
+    },
+    {
+      "date": "2024-01-09",
+      "source": "orders",
+      "metric": "revenue",
+      "value": 5600,
+      "dims": {
+        "product": "product_b",
+        "region": "south"
+      }
+    },
+    {
+      "date": "2024-01-10",
+      "source": "orders",
+      "metric": "orders",
+      "value": 26,
+      "dims": {
+        "product": "product_a",
+        "region": "north"
+      }
+    },
+    {
+      "date": "2024-01-10",
+      "source": "orders",
+      "metric": "orders",
+      "value": 21,
+      "dims": {
+        "product": "product_b",
+        "region": "south"
+      }
+    },
+    {
+      "date": "2024-01-10",
+      "source": "orders",
+      "metric": "revenue",
+      "value": 5200,
+      "dims": {
+        "product": "product_a",
+        "region": "north"
+      }
+    },
+    {
+      "date": "2024-01-10",
+      "source": "orders",
+      "metric": "revenue",
+      "value": 4200,
+      "dims": {
+        "product": "product_b",
+        "region": "south"
+      }
+    },
+    {
+      "date": "2024-01-11",
+      "source": "orders",
+      "metric": "orders",
+      "value": 42,
+      "dims": {
+        "product": "product_a",
+        "region": "north"
+      }
+    },
+    {
+      "date": "2024-01-11",
+      "source": "orders",
+      "metric": "orders",
+      "value": 33,
+      "dims": {
+        "product": "product_b",
+        "region": "south"
+      }
+    },
+    {
+      "date": "2024-01-11",
+      "source": "orders",
+      "metric": "revenue",
+      "value": 8400,
+      "dims": {
+        "product": "product_a",
+        "region": "north"
+      }
+    },
+    {
+      "date": "2024-01-11",
+      "source": "orders",
+      "metric": "revenue",
+      "value": 6600,
+      "dims": {
+        "product": "product_b",
+        "region": "south"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1458 @@
+[
+  {
+    "date": "2024-01-08",
+    "metric_name": "ad_spend",
+    "metric_value": 1200,
+    "source": "ads",
+    "campaign": "brand_awareness",
+    "channel": "google"
+  },
+  {
+    "date": "2024-01-08",
+    "metric_name": "ad_spend",
+    "metric_value": 800,
+    "source": "ads",
+    "campaign": "lead_gen",
+    "channel": "facebook"
+  },
+  {
+    "date": "2024-01-08",
+    "metric_name": "clicks",
+    "metric_value": 450,
+    "source": "ads",
+    "campaign": "brand_awareness",
+    "channel": "google"
+  },
+  {
+    "date": "2024-01-08",
+    "metric_name": "clicks",
+    "metric_value": 320,
+    "source": "ads",
+    "campaign": "lead_gen",
+    "channel": "facebook"
+  },
+  {
+    "date": "2024-01-09",
+    "metric_name": "ad_spend",
+    "metric_value": 1350,
+    "source": "ads",
+    "campaign": "brand_awareness",
+    "channel": "google"
+  },
+  {
+    "date": "2024-01-09",
+    "metric_name": "ad_spend",
+    "metric_value": 920,
+    "source": "ads",
+    "campaign": "lead_gen",
+    "channel": "facebook"
+  },
+  {
+    "date": "2024-01-09",
+    "metric_name": "clicks",
+    "metric_value": 510,
+    "source": "ads",
+    "campaign": "brand_awareness",
+    "channel": "google"
+  },
+  {
+    "date": "2024-01-09",
+    "metric_name": "clicks",
+    "metric_value": 380,
+    "source": "ads",
+    "campaign": "lead_gen",
+    "channel": "facebook"
+  },
+  {
+    "date": "2024-01-10",
+    "metric_name": "ad_spend",
+    "metric_value": 1100,
+    "source": "ads",
+    "campaign": "brand_awareness",
+    "channel": "google"
+  },
+  {
+    "date": "2024-01-10",
+    "metric_name": "ad_spend",
+    "metric_value": 750,
+    "source": "ads",
+    "campaign": "lead_gen",
+    "channel": "facebook"
+  },
+  {
+    "date": "2024-01-10",
+    "metric_name": "clicks",
+    "metric_value": 420,
+    "source": "ads",
+    "campaign": "brand_awareness",
+    "channel": "google"
+  },
+  {
+    "date": "2024-01-10",
+    "metric_name": "clicks",
+    "metric_value": 290,
+    "source": "ads",
+    "campaign": "lead_gen",
+    "channel": "facebook"
+  },
+  {
+    "date": "2024-01-11",
+    "metric_name": "ad_spend",
+    "metric_value": 1500,
+    "source": "ads",
+    "campaign": "brand_awareness",
+    "channel": "google"
+  },
+  {
+    "date": "2024-01-11",
+    "metric_name": "ad_spend",
+    "metric_value": 1050,
+    "source": "ads",
+    "campaign": "lead_gen",
+    "channel": "facebook"
+  },
+  {
+    "date": "2024-01-11",
+    "metric_name": "clicks",
+    "metric_value": 580,
+    "source": "ads",
+    "campaign": "brand_awareness",
+    "channel": "google"
+  },
+  {
+    "date": "2024-01-11",
+    "metric_name": "clicks",
+    "metric_value": 410,
+    "source": "ads",
+    "campaign": "lead_gen",
+    "channel": "facebook"
+  },
+  {
+    "date": "2024-01-12",
+    "metric_name": "ad_spend",
+    "metric_value": 1280,
+    "source": "ads",
+    "campaign": "brand_awareness",
+    "channel": "google"
+  },
+  {
+    "date": "2024-01-12",
+    "metric_name": "ad_spend",
+    "metric_value": 890,
+    "source": "ads",
+    "campaign": "lead_gen",
+    "channel": "facebook"
+  },
+  {
+    "date": "2024-01-12",
+    "metric_name": "clicks",
+    "metric_value": 490,
+    "source": "ads",
+    "campaign": "brand_awareness",
+    "channel": "google"
+  },
+  {
+    "date": "2024-01-12",
+    "metric_name": "clicks",
+    "metric_value": 350,
+    "source": "ads",
+    "campaign": "lead_gen",
+    "channel": "facebook"
+  },
+  {
+    "date": "2024-01-13",
+    "metric_name": "ad_spend",
+    "metric_value": 950,
+    "source": "ads",
+    "campaign": "brand_awareness",
+    "channel": "google"
+  },
+  {
+    "date": "2024-01-13",
+    "metric_name": "ad_spend",
+    "metric_value": 620,
+    "source": "ads",
+    "campaign": "lead_gen",
+    "channel": "facebook"
+  },
+  {
+    "date": "2024-01-13",
+    "metric_name": "clicks",
+    "metric_value": 360,
+    "source": "ads",
+    "campaign": "brand_awareness",
+    "channel": "google"
+  },
+  {
+    "date": "2024-01-13",
+    "metric_name": "clicks",
+    "metric_value": 240,
+    "source": "ads",
+    "campaign": "lead_gen",
+    "channel": "facebook"
+  },
+  {
+    "date": "2024-01-14",
+    "metric_name": "ad_spend",
+    "metric_value": 1050,
+    "source": "ads",
+    "campaign": "brand_awareness",
+    "channel": "google"
+  },
+  {
+    "date": "2024-01-14",
+    "metric_name": "ad_spend",
+    "metric_value": 710,
+    "source": "ads",
+    "campaign": "lead_gen",
+    "channel": "facebook"
+  },
+  {
+    "date": "2024-01-14",
+    "metric_name": "clicks",
+    "metric_value": 400,
+    "source": "ads",
+    "campaign": "brand_awareness",
+    "channel": "google"
+  },
+  {
+    "date": "2024-01-14",
+    "metric_name": "clicks",
+    "metric_value": 280,
+    "source": "ads",
+    "campaign": "lead_gen",
+    "channel": "facebook"
+  },
+  {
+    "date": "2024-01-15",
+    "metric_name": "ad_spend",
+    "metric_value": 1400,
+    "source": "ads",
+    "campaign": "brand_awareness",
+    "channel": "google"
+  },
+  {
+    "date": "2024-01-15",
+    "metric_name": "ad_spend",
+    "metric_value": 980,
+    "source": "ads",
+    "campaign": "lead_gen",
+    "channel": "facebook"
+  },
+  {
+    "date": "2024-01-15",
+    "metric_name": "clicks",
+    "metric_value": 540,
+    "source": "ads",
+    "campaign": "brand_awareness",
+    "channel": "google"
+  },
+  {
+    "date": "2024-01-15",
+    "metric_name": "clicks",
+    "metric_value": 390,
+    "source": "ads",
+    "campaign": "lead_gen",
+    "channel": "facebook"
+  },
+  {
+    "date": "2024-01-16",
+    "metric_name": "ad_spend",
+    "metric_value": 1550,
+    "source": "ads",
+    "campaign": "brand_awareness",
+    "channel": "google"
+  },
+  {
+    "date": "2024-01-16",
+    "metric_name": "ad_spend",
+    "metric_value": 1100,
+    "source": "ads",
+    "campaign": "lead_gen",
+    "channel": "facebook"
+  },
+  {
+    "date": "2024-01-16",
+    "metric_name": "clicks",
+    "metric_value": 600,
+    "source": "ads",
+    "campaign": "brand_awareness",
+    "channel": "google"
+  },
+  {
+    "date": "2024-01-16",
+    "metric_name": "clicks",
+    "metric_value": 430,
+    "source": "ads",
+    "campaign": "lead_gen",
+    "channel": "facebook"
+  },
+  {
+    "date": "2024-01-17",
+    "metric_name": "ad_spend",
+    "metric_value": 1250,
+    "source": "ads",
+    "campaign": "brand_awareness",
+    "channel": "google"
+  },
+  {
+    "date": "2024-01-17",
+    "metric_name": "ad_spend",
+    "metric_value": 870,
+    "source": "ads",
+    "campaign": "lead_gen",
+    "channel": "facebook"
+  },
+  {
+    "date": "2024-01-17",
+    "metric_name": "clicks",
+    "metric_value": 480,
+    "source": "ads",
+    "campaign": "brand_awareness",
+    "channel": "google"
+  },
+  {
+    "date": "2024-01-17",
+    "metric_name": "clicks",
+    "metric_value": 340,
+    "source": "ads",
+    "campaign": "lead_gen",
+    "channel": "facebook"
+  },
+  {
+    "date": "2024-01-18",
+    "metric_name": "ad_spend",
+    "metric_value": 1180,
+    "source": "ads",
+    "campaign": "brand_awareness",
+    "channel": "google"
+  },
+  {
+    "date": "2024-01-18",
+    "metric_name": "ad_spend",
+    "metric_value": 820,
+    "source": "ads",
+    "campaign": "lead_gen",
+    "channel": "facebook"
+  },
+  {
+    "date": "2024-01-18",
+    "metric_name": "clicks",
+    "metric_value": 450,
+    "source": "ads",
+    "campaign": "brand_awareness",
+    "channel": "google"
+  },
+  {
+    "date": "2024-01-18",
+    "metric_name": "clicks",
+    "metric_value": 320,
+    "source": "ads",
+    "campaign": "lead_gen",
+    "channel": "facebook"
+  },
+  {
+    "date": "2024-01-19",
+    "metric_name": "ad_spend",
+    "metric_value": 1380,
+    "source": "ads",
+    "campaign": "brand_awareness",
+    "channel": "google"
+  },
+  {
+    "date": "2024-01-19",
+    "metric_name": "ad_spend",
+    "metric_value": 960,
+    "source": "ads",
+    "campaign": "lead_gen",
+    "channel": "facebook"
+  },
+  {
+    "date": "2024-01-19",
+    "metric_name": "clicks",
+    "metric_value": 530,
+    "source": "ads",
+    "campaign": "brand_awareness",
+    "channel": "google"
+  },
+  {
+    "date": "2024-01-19",
+    "metric_name": "clicks",
+    "metric_value": 380,
+    "source": "ads",
+    "campaign": "lead_gen",
+    "channel": "facebook"
+  },
+  {
+    "date": "2024-01-20",
+    "metric_name": "ad_spend",
+    "metric_value": 1020,
+    "source": "ads",
+    "campaign": "brand_awareness",
+    "channel": "google"
+  },
+  {
+    "date": "2024-01-20",
+    "metric_name": "ad_spend",
+    "metric_value": 680,
+    "source": "ads",
+    "campaign": "lead_gen",
+    "channel": "facebook"
+  },
+  {
+    "date": "2024-01-20",
+    "metric_name": "clicks",
+    "metric_value": 390,
+    "source": "ads",
+    "campaign": "brand_awareness",
+    "channel": "google"
+  },
+  {
+    "date": "2024-01-20",
+    "metric_name": "clicks",
+    "metric_value": 260,
+    "source": "ads",
+    "campaign": "lead_gen",
+    "channel": "facebook"
+  },
+  {
+    "date": "2024-01-21",
+    "metric_name": "ad_spend",
+    "metric_value": 1100,
+    "source": "ads",
+    "campaign": "brand_awareness",
+    "channel": "google"
+  },
+  {
+    "date": "2024-01-21",
+    "metric_name": "ad_spend",
+    "metric_value": 740,
+    "source": "ads",
+    "campaign": "lead_gen",
+    "channel": "facebook"
+  },
+  {
+    "date": "2024-01-21",
+    "metric_name": "clicks",
+    "metric_value": 420,
+    "source": "ads",
+    "campaign": "brand_awareness",
+    "channel": "google"
+  },
+  {
+    "date": "2024-01-21",
+    "metric_name": "clicks",
+    "metric_value": 290,
+    "source": "ads",
+    "campaign": "lead_gen",
+    "channel": "facebook"
+  },
+  {
+    "date": "2024-01-08",
+    "metric_name": "leads",
+    "metric_value": 45,
+    "source": "crm"
+  },
+  {
+    "date": "2024-01-08",
+    "metric_name": "customers",
+    "metric_value": 12,
+    "source": "crm"
+  },
+  {
+    "date": "2024-01-09",
+    "metric_name": "leads",
+    "metric_value": 52,
+    "source": "crm"
+  },
+  {
+    "date": "2024-01-09",
+    "metric_name": "customers",
+    "metric_value": 15,
+    "source": "crm"
+  },
+  {
+    "date": "2024-01-10",
+    "metric_name": "leads",
+    "metric_value": 48,
+    "source": "crm"
+  },
+  {
+    "date": "2024-01-10",
+    "metric_name": "customers",
+    "metric_value": 11,
+    "source": "crm"
+  },
+  {
+    "date": "2024-01-11",
+    "metric_name": "leads",
+    "metric_value": 61,
+    "source": "crm"
+  },
+  {
+    "date": "2024-01-11",
+    "metric_name": "customers",
+    "metric_value": 18,
+    "source": "crm"
+  },
+  {
+    "date": "2024-01-12",
+    "metric_name": "leads",
+    "metric_value": 55,
+    "source": "crm"
+  },
+  {
+    "date": "2024-01-12",
+    "metric_name": "customers",
+    "metric_value": 14,
+    "source": "crm"
+  },
+  {
+    "date": "2024-01-13",
+    "metric_name": "leads",
+    "metric_value": 38,
+    "source": "crm"
+  },
+  {
+    "date": "2024-01-13",
+    "metric_name": "customers",
+    "metric_value": 9,
+    "source": "crm"
+  },
+  {
+    "date": "2024-01-14",
+    "metric_name": "leads",
+    "metric_value": 42,
+    "source": "crm"
+  },
+  {
+    "date": "2024-01-14",
+    "metric_name": "customers",
+    "metric_value": 10,
+    "source": "crm"
+  },
+  {
+    "date": "2024-01-15",
+    "metric_name": "leads",
+    "metric_value": 58,
+    "source": "crm"
+  },
+  {
+    "date": "2024-01-15",
+    "metric_name": "customers",
+    "metric_value": 16,
+    "source": "crm"
+  },
+  {
+    "date": "2024-01-16",
+    "metric_name": "leads",
+    "metric_value": 63,
+    "source": "crm"
+  },
+  {
+    "date": "2024-01-16",
+    "metric_name": "customers",
+    "metric_value": 19,
+    "source": "crm"
+  },
+  {
+    "date": "2024-01-17",
+    "metric_name": "leads",
+    "metric_value": 51,
+    "source": "crm"
+  },
+  {
+    "date": "2024-01-17",
+    "metric_name": "customers",
+    "metric_value": 13,
+    "source": "crm"
+  },
+  {
+    "date": "2024-01-18",
+    "metric_name": "leads",
+    "metric_value": 47,
+    "source": "crm"
+  },
+  {
+    "date": "2024-01-18",
+    "metric_name": "customers",
+    "metric_value": 12,
+    "source": "crm"
+  },
+  {
+    "date": "2024-01-19",
+    "metric_name": "leads",
+    "metric_value": 56,
+    "source": "crm"
+  },
+  {
+    "date": "2024-01-19",
+    "metric_name": "customers",
+    "metric_value": 15,
+    "source": "crm"
+  },
+  {
+    "date": "2024-01-20",
+    "metric_name": "leads",
+    "metric_value": 41,
+    "source": "crm"
+  },
+  {
+    "date": "2024-01-20",
+    "metric_name": "customers",
+    "metric_value": 10,
+    "source": "crm"
+  },
+  {
+    "date": "2024-01-21",
+    "metric_name": "leads",
+    "metric_value": 44,
+    "source": "crm"
+  },
+  {
+    "date": "2024-01-21",
+    "metric_name": "customers",
+    "metric_value": 11,
+    "source": "crm"
+  },
+  {
+    "date": "2024-01-08",
+    "metric_name": "orders",
+    "metric_value": 28,
+    "source": "orders",
+    "product": "product_a",
+    "region": "north"
+  },
+  {
+    "date": "2024-01-08",
+    "metric_name": "orders",
+    "metric_value": 22,
+    "source": "orders",
+    "product": "product_b",
+    "region": "south"
+  },
+  {
+    "date": "2024-01-08",
+    "metric_name": "revenue",
+    "metric_value": 5600,
+    "source": "orders",
+    "product": "product_a",
+    "region": "north"
+  },
+  {
+    "date": "2024-01-08",
+    "metric_name": "revenue",
+    "metric_value": 4400,
+    "source": "orders",
+    "product": "product_b",
+    "region": "south"
+  },
+  {
+    "date": "2024-01-09",
+    "metric_name": "orders",
+    "metric_value": 35,
+    "source": "orders",
+    "product": "product_a",
+    "region": "north"
+  },
+  {
+    "date": "2024-01-09",
+    "metric_name": "orders",
+    "metric_value": 28,
+    "source": "orders",
+    "product": "product_b",
+    "region": "south"
+  },
+  {
+    "date": "2024-01-09",
+    "metric_name": "revenue",
+    "metric_value": 7000,
+    "source": "orders",
+    "product": "product_a",
+    "region": "north"
+  },
+  {
+    "date": "2024-01-09",
+    "metric_name": "revenue",
+    "metric_value": 5600,
+    "source": "orders",
+    "product": "product_b",
+    "region": "south"
+  },
+  {
+    "date": "2024-01-10",
+    "metric_name": "orders",
+    "metric_value": 26,
+    "source": "orders",
+    "product": "product_a",
+    "region": "north"
+  },
+  {
+    "date": "2024-01-10",
+    "metric_name": "orders",
+    "metric_value": 21,
+    "source": "orders",
+    "product": "product_b",
+    "region": "south"
+  },
+  {
+    "date": "2024-01-10",
+    "metric_name": "revenue",
+    "metric_value": 5200,
+    "source": "orders",
+    "product": "product_a",
+    "region": "north"
+  },
+  {
+    "date": "2024-01-10",
+    "metric_name": "revenue",
+    "metric_value": 4200,
+    "source": "orders",
+    "product": "product_b",
+    "region": "south"
+  },
+  {
+    "date": "2024-01-11",
+    "metric_name": "orders",
+    "metric_value": 42,
+    "source": "orders",
+    "product": "product_a",
+    "region": "north"
+  },
+  {
+    "date": "2024-01-11",
+    "metric_name": "orders",
+    "metric_value": 33,
+    "source": "orders",
+    "product": "product_b",
+    "region": "south"
+  },
+  {
+    "date": "2024-01-11",
+    "metric_name": "revenue",
+    "metric_value": 8400,
+    "source": "orders",
+    "product": "product_a",
+    "region": "north"
+  },
+  {
+    "date": "2024-01-11",
+    "metric_name": "revenue",
+    "metric_value": 6600,
+    "source": "orders",
+    "product": "product_b",
+    "region": "south"
+  },
+  {
+    "date": "2024-01-12",
+    "metric_name": "orders",
+    "metric_value": 32,
+    "source": "orders",
+    "product": "product_a",
+    "region": "north"
+  },
+  {
+    "date": "2024-01-12",
+    "metric_name": "orders",
+    "metric_value": 26,
+    "source": "orders",
+    "product": "product_b",
+    "region": "south"
+  },
+  {
+    "date": "2024-01-12",
+    "metric_name": "revenue",
+    "metric_value": 6400,
+    "source": "orders",
+    "product": "product_a",
+    "region": "north"
+  },
+  {
+    "date": "2024-01-12",
+    "metric_name": "revenue",
+    "metric_value": 5200,
+    "source": "orders",
+    "product": "product_b",
+    "region": "south"
+  },
+  {
+    "date": "2024-01-13",
+    "metric_name": "orders",
+    "metric_value": 20,
+    "source": "orders",
+    "product": "product_a",
+    "region": "north"
+  },
+  {
+    "date": "2024-01-13",
+    "metric_name": "orders",
+    "metric_value": 16,
+    "source": "orders",
+    "product": "product_b",
+    "region": "south"
+  },
+  {
+    "date": "2024-01-13",
+    "metric_name": "revenue",
+    "metric_value": 4000,
+    "source": "orders",
+    "product": "product_a",
+    "region": "north"
+  },
+  {
+    "date": "2024-01-13",
+    "metric_name": "revenue",
+    "metric_value": 3200,
+    "source": "orders",
+    "product": "product_b",
+    "region": "south"
+  },
+  {
+    "date": "2024-01-14",
+    "metric_name": "orders",
+    "metric_value": 24,
+    "source": "orders",
+    "product": "product_a",
+    "region": "north"
+  },
+  {
+    "date": "2024-01-14",
+    "metric_name": "orders",
+    "metric_value": 19,
+    "source": "orders",
+    "product": "product_b",
+    "region": "south"
+  },
+  {
+    "date": "2024-01-14",
+    "metric_name": "revenue",
+    "metric_value": 4800,
+    "source": "orders",
+    "product": "product_a",
+    "region": "north"
+  },
+  {
+    "date": "2024-01-14",
+    "metric_name": "revenue",
+    "metric_value": 3800,
+    "source": "orders",
+    "product": "product_b",
+    "region": "south"
+  },
+  {
+    "date": "2024-01-15",
+    "metric_name": "orders",
+    "metric_value": 38,
+    "source": "orders",
+    "product": "product_a",
+    "region": "north"
+  },
+  {
+    "date": "2024-01-15",
+    "metric_name": "orders",
+    "metric_value": 30,
+    "source": "orders",
+    "product": "product_b",
+    "region": "south"
+  },
+  {
+    "date": "2024-01-15",
+    "metric_name": "revenue",
+    "metric_value": 7600,
+    "source": "orders",
+    "product": "product_a",
+    "region": "north"
+  },
+  {
+    "date": "2024-01-15",
+    "metric_name": "revenue",
+    "metric_value": 6000,
+    "source": "orders",
+    "product": "product_b",
+    "region": "south"
+  },
+  {
+    "date": "2024-01-16",
+    "metric_name": "orders",
+    "metric_value": 45,
+    "source": "orders",
+    "product": "product_a",
+    "region": "north"
+  },
+  {
+    "date": "2024-01-16",
+    "metric_name": "orders",
+    "metric_value": 36,
+    "source": "orders",
+    "product": "product_b",
+    "region": "south"
+  },
+  {
+    "date": "2024-01-16",
+    "metric_name": "revenue",
+    "metric_value": 9000,
+    "source": "orders",
+    "product": "product_a",
+    "region": "north"
+  },
+  {
+    "date": "2024-01-16",
+    "metric_name": "revenue",
+    "metric_value": 7200,
+    "source": "orders",
+    "product": "product_b",
+    "region": "south"
+  },
+  {
+    "date": "2024-01-17",
+    "metric_name": "orders",
+    "metric_value": 31,
+    "source": "orders",
+    "product": "product_a",
+    "region": "north"
+  },
+  {
+    "date": "2024-01-17",
+    "metric_name": "orders",
+    "metric_value": 25,
+    "source": "orders",
+    "product": "product_b",
+    "region": "south"
+  },
+  {
+    "date": "2024-01-17",
+    "metric_name": "revenue",
+    "metric_value": 6200,
+    "source": "orders",
+    "product": "product_a",
+    "region": "north"
+  },
+  {
+    "date": "2024-01-17",
+    "metric_name": "revenue",
+    "metric_value": 5000,
+    "source": "orders",
+    "product": "product_b",
+    "region": "south"
+  },
+  {
+    "date": "2024-01-18",
+    "metric_name": "orders",
+    "metric_value": 29,
+    "source": "orders",
+    "product": "product_a",
+    "region": "north"
+  },
+  {
+    "date": "2024-01-18",
+    "metric_name": "orders",
+    "metric_value": 23,
+    "source": "orders",
+    "product": "product_b",
+    "region": "south"
+  },
+  {
+    "date": "2024-01-18",
+    "metric_name": "revenue",
+    "metric_value": 5800,
+    "source": "orders",
+    "product": "product_a",
+    "region": "north"
+  },
+  {
+    "date": "2024-01-18",
+    "metric_name": "revenue",
+    "metric_value": 4600,
+    "source": "orders",
+    "product": "product_b",
+    "region": "south"
+  },
+  {
+    "date": "2024-01-19",
+    "metric_name": "orders",
+    "metric_value": 36,
+    "source": "orders",
+    "product": "product_a",
+    "region": "north"
+  },
+  {
+    "date": "2024-01-19",
+    "metric_name": "orders",
+    "metric_value": 29,
+    "source": "orders",
+    "product": "product_b",
+    "region": "south"
+  },
+  {
+    "date": "2024-01-19",
+    "metric_name": "revenue",
+    "metric_value": 7200,
+    "source": "orders",
+    "product": "product_a",
+    "region": "north"
+  },
+  {
+    "date": "2024-01-19",
+    "metric_name": "revenue",
+    "metric_value": 5800,
+    "source": "orders",
+    "product": "product_b",
+    "region": "south"
+  },
+  {
+    "date": "2024-01-20",
+    "metric_name": "orders",
+    "metric_value": 23,
+    "source": "orders",
+    "product": "product_a",
+    "region": "north"
+  },
+  {
+    "date": "2024-01-20",
+    "metric_name": "orders",
+    "metric_value": 18,
+    "source": "orders",
+    "product": "product_b",
+    "region": "south"
+  },
+  {
+    "date": "2024-01-20",
+    "metric_name": "revenue",
+    "metric_value": 4600,
+    "source": "orders",
+    "product": "product_a",
+    "region": "north"
+  },
+  {
+    "date": "2024-01-20",
+    "metric_name": "revenue",
+    "metric_value": 3600,
+    "source": "orders",
+    "product": "product_b",
+    "region": "south"
+  },
+  {
+    "date": "2024-01-21",
+    "metric_name": "orders",
+    "metric_value": 26,
+    "source": "orders",
+    "product": "product_a",
+    "region": "north"
+  },
+  {
+    "date": "2024-01-21",
+    "metric_name": "orders",
+    "metric_value": 21,
+    "source": "orders",
+    "product": "product_b",
+    "region": "south"
+  },
+  {
+    "date": "2024-01-21",
+    "metric_name": "revenue",
+    "metric_value": 5200,
+    "source": "orders",
+    "product": "product_a",
+    "region": "north"
+  },
+  {
+    "date": "2024-01-21",
+    "metric_name": "revenue",
+    "metric_value": 4200,
+    "source": "orders",
+    "product": "product_b",
+    "region": "south"
+  },
+  {
+    "date": "2024-01-08",
+    "metric_name": "page_views",
+    "metric_value": 2500,
+    "source": "web",
+    "page": "/home"
+  },
+  {
+    "date": "2024-01-08",
+    "metric_name": "page_views",
+    "metric_value": 1800,
+    "source": "web",
+    "page": "/products"
+  },
+  {
+    "date": "2024-01-08",
+    "metric_name": "sessions",
+    "metric_value": 850,
+    "source": "web",
+    "page": "/home"
+  },
+  {
+    "date": "2024-01-08",
+    "metric_name": "sessions",
+    "metric_value": 620,
+    "source": "web",
+    "page": "/products"
+  },
+  {
+    "date": "2024-01-09",
+    "metric_name": "page_views",
+    "metric_value": 2800,
+    "source": "web",
+    "page": "/home"
+  },
+  {
+    "date": "2024-01-09",
+    "metric_name": "page_views",
+    "metric_value": 2100,
+    "source": "web",
+    "page": "/products"
+  },
+  {
+    "date": "2024-01-09",
+    "metric_name": "sessions",
+    "metric_value": 950,
+    "source": "web",
+    "page": "/home"
+  },
+  {
+    "date": "2024-01-09",
+    "metric_name": "sessions",
+    "metric_value": 720,
+    "source": "web",
+    "page": "/products"
+  },
+  {
+    "date": "2024-01-10",
+    "metric_name": "page_views",
+    "metric_value": 2400,
+    "source": "web",
+    "page": "/home"
+  },
+  {
+    "date": "2024-01-10",
+    "metric_name": "page_views",
+    "metric_value": 1750,
+    "source": "web",
+    "page": "/products"
+  },
+  {
+    "date": "2024-01-10",
+    "metric_name": "sessions",
+    "metric_value": 820,
+    "source": "web",
+    "page": "/home"
+  },
+  {
+    "date": "2024-01-10",
+    "metric_name": "sessions",
+    "metric_value": 600,
+    "source": "web",
+    "page": "/products"
+  },
+  {
+    "date": "2024-01-11",
+    "metric_name": "page_views",
+    "metric_value": 3100,
+    "source": "web",
+    "page": "/home"
+  },
+  {
+    "date": "2024-01-11",
+    "metric_name": "page_views",
+    "metric_value": 2350,
+    "source": "web",
+    "page": "/products"
+  },
+  {
+    "date": "2024-01-11",
+    "metric_name": "sessions",
+    "metric_value": 1050,
+    "source": "web",
+    "page": "/home"
+  },
+  {
+    "date": "2024-01-11",
+    "metric_name": "sessions",
+    "metric_value": 810,
+    "source": "web",
+    "page": "/products"
+  },
+  {
+    "date": "2024-01-12",
+    "metric_name": "page_views",
+    "metric_value": 2700,
+    "source": "web",
+    "page": "/home"
+  },
+  {
+    "date": "2024-01-12",
+    "metric_name": "page_views",
+    "metric_value": 2000,
+    "source": "web",
+    "page": "/products"
+  },
+  {
+    "date": "2024-01-12",
+    "metric_name": "sessions",
+    "metric_value": 920,
+    "source": "web",
+    "page": "/home"
+  },
+  {
+    "date": "2024-01-12",
+    "metric_name": "sessions",
+    "metric_value": 690,
+    "source": "web",
+    "page": "/products"
+  },
+  {
+    "date": "2024-01-13",
+    "metric_name": "page_views",
+    "metric_value": 1900,
+    "source": "web",
+    "page": "/home"
+  },
+  {
+    "date": "2024-01-13",
+    "metric_name": "page_views",
+    "metric_value": 1400,
+    "source": "web",
+    "page": "/products"
+  },
+  {
+    "date": "2024-01-13",
+    "metric_name": "sessions",
+    "metric_value": 650,
+    "source": "web",
+    "page": "/home"
+  },
+  {
+    "date": "2024-01-13",
+    "metric_name": "sessions",
+    "metric_value": 480,
+    "source": "web",
+    "page": "/products"
+  },
+  {
+    "date": "2024-01-14",
+    "metric_name": "page_views",
+    "metric_value": 2100,
+    "source": "web",
+    "page": "/home"
+  },
+  {
+    "date": "2024-01-14",
+    "metric_name": "page_views",
+    "metric_value": 1550,
+    "source": "web",
+    "page": "/products"
+  },
+  {
+    "date": "2024-01-14",
+    "metric_name": "sessions",
+    "metric_value": 720,
+    "source": "web",
+    "page": "/home"
+  },
+  {
+    "date": "2024-01-14",
+    "metric_name": "sessions",
+    "metric_value": 530,
+    "source": "web",
+    "page": "/products"
+  },
+  {
+    "date": "2024-01-15",
+    "metric_name": "page_views",
+    "metric_value": 2900,
+    "source": "web",
+    "page": "/home"
+  },
+  {
+    "date": "2024-01-15",
+    "metric_name": "page_views",
+    "metric_value": 2200,
+    "source": "web",
+    "page": "/products"
+  },
+  {
+    "date": "2024-01-15",
+    "metric_name": "sessions",
+    "metric_value": 980,
+    "source": "web",
+    "page": "/home"
+  },
+  {
+    "date": "2024-01-15",
+    "metric_name": "sessions",
+    "metric_value": 760,
+    "source": "web",
+    "page": "/products"
+  },
+  {
+    "date": "2024-01-16",
+    "metric_name": "page_views",
+    "metric_value": 3200,
+    "source": "web",
+    "page": "/home"
+  },
+  {
+    "date": "2024-01-16",
+    "metric_name": "page_views",
+    "metric_value": 2450,
+    "source": "web",
+    "page": "/products"
+  },
+  {
+    "date": "2024-01-16",
+    "metric_name": "sessions",
+    "metric_value": 1080,
+    "source": "web",
+    "page": "/home"
+  },
+  {
+    "date": "2024-01-16",
+    "metric_name": "sessions",
+    "metric_value": 840,
+    "source": "web",
+    "page": "/products"
+  },
+  {
+    "date": "2024-01-17",
+    "metric_name": "page_views",
+    "metric_value": 2600,
+    "source": "web",
+    "page": "/home"
+  },
+  {
+    "date": "2024-01-17",
+    "metric_name": "page_views",
+    "metric_value": 1950,
+    "source": "web",
+    "page": "/products"
+  },
+  {
+    "date": "2024-01-17",
+    "metric_name": "sessions",
+    "metric_value": 880,
+    "source": "web",
+    "page": "/home"
+  },
+  {
+    "date": "2024-01-17",
+    "metric_name": "sessions",
+    "metric_value": 670,
+    "source": "web",
+    "page": "/products"
+  },
+  {
+    "date": "2024-01-18",
+    "metric_name": "page_views",
+    "metric_value": 2450,
+    "source": "web",
+    "page": "/home"
+  },
+  {
+    "date": "2024-01-18",
+    "metric_name": "page_views",
+    "metric_value": 1820,
+    "source": "web",
+    "page": "/products"
+  },
+  {
+    "date": "2024-01-18",
+    "metric_name": "sessions",
+    "metric_value": 830,
+    "source": "web",
+    "page": "/home"
+  },
+  {
+    "date": "2024-01-18",
+    "metric_name": "sessions",
+    "metric_value": 620,
+    "source": "web",
+    "page": "/products"
+  },
+  {
+    "date": "2024-01-19",
+    "metric_name": "page_views",
+    "metric_value": 2850,
+    "source": "web",
+    "page": "/home"
+  },
+  {
+    "date": "2024-01-19",
+    "metric_name": "page_views",
+    "metric_value": 2150,
+    "source": "web",
+    "page": "/products"
+  },
+  {
+    "date": "2024-01-19",
+    "metric_name": "sessions",
+    "metric_value": 960,
+    "source": "web",
+    "page": "/home"
+  },
+  {
+    "date": "2024-01-19",
+    "metric_name": "sessions",
+    "metric_value": 740,
+    "source": "web",
+    "page": "/products"
+  },
+  {
+    "date": "2024-01-20",
+    "metric_name": "page_views",
+    "metric_value": 2050,
+    "source": "web",
+    "page": "/home"
+  },
+  {
+    "date": "2024-01-20",
+    "metric_name": "page_views",
+    "metric_value": 1520,
+    "source": "web",
+    "page": "/products"
+  },
+  {
+    "date": "2024-01-20",
+    "metric_name": "sessions",
+    "metric_value": 700,
+    "source": "web",
+    "page": "/home"
+  },
+  {
+    "date": "2024-01-20",
+    "metric_name": "sessions",
+    "metric_value": 520,
+    "source": "web",
+    "page": "/products"
+  },
+  {
+    "date": "2024-01-21",
+    "metric_name": "page_views",
+    "metric_value": 2200,
+    "source": "web",
+    "page": "/home"
+  },
+  {
+    "date": "2024-01-21",
+    "metric_name": "page_views",
+    "metric_value": 1650,
+    "source": "web",
+    "page": "/products"
+  },
+  {
+    "date": "2024-01-21",
+    "metric_name": "sessions",
+    "metric_value": 750,
+    "source": "web",
+    "page": "/home"
+  },
+  {
+    "date": "2024-01-21",
+    "metric_name": "sessions",
+    "metric_value": 560,
+    "source": "web",
+    "page": "/products"
+  }
+]

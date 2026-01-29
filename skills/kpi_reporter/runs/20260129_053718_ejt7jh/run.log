@@ -1,0 +1,20 @@
+[2026-01-29T05:37:18.171Z] [INFO] Pipeline started {"runId":"20260129_053718_ejt7jh","args":"{\"time_window\":{\"start\":\"2024-01-15\",\"end\":\"2024-01-21\"},\"datasource\":\"local_files\",\"output\":{\"xlsx\":true,\"html\":false,\"slack\":false},\"dry_run\":true}"}
+[2026-01-29T05:37:18.172Z] [INFO] Time window resolved {"label":"2024-01-15 至 2024-01-21","range":"2024-01-15 ~ 2024-01-21"}
+[2026-01-29T05:37:18.172Z] [INFO] Fetching data from datasource {"datasource":"local_files"}
+[2026-01-29T05:37:18.172Z] [INFO] Found CSV files {"count":4,"files":["/Users/hal/Moltbot/skills/kpi_reporter/data/sample_ads.csv","/Users/hal/Moltbot/skills/kpi_reporter/data/sample_crm.csv","/Users/hal/Moltbot/skills/kpi_reporter/data/sample_orders.csv","/Users/hal/Moltbot/skills/kpi_reporter/data/sample_web.csv"]}
+[2026-01-29T05:37:18.174Z] [INFO] Parsed CSV file {"file":"/Users/hal/Moltbot/skills/kpi_reporter/data/sample_ads.csv","source":"ads","recordCount":56}
+[2026-01-29T05:37:18.174Z] [INFO] Parsed CSV file {"file":"/Users/hal/Moltbot/skills/kpi_reporter/data/sample_crm.csv","source":"crm","recordCount":28}
+[2026-01-29T05:37:18.175Z] [INFO] Parsed CSV file {"file":"/Users/hal/Moltbot/skills/kpi_reporter/data/sample_orders.csv","source":"orders","recordCount":56}
+[2026-01-29T05:37:18.175Z] [INFO] Parsed CSV file {"file":"/Users/hal/Moltbot/skills/kpi_reporter/data/sample_web.csv","source":"web","recordCount":56}
+[2026-01-29T05:37:18.175Z] [INFO] Total records fetched {"count":196}
+[2026-01-29T05:37:18.176Z] [INFO] Raw data saved {"count":196,"path":"/Users/hal/Moltbot/skills/kpi_reporter/runs/20260129_053718_ejt7jh/raw/raw_data.json"}
+[2026-01-29T05:37:18.176Z] [INFO] Normalizing data
+[2026-01-29T05:37:18.176Z] [INFO] Data normalized {"count":196}
+[2026-01-29T05:37:18.176Z] [INFO] Computing KPIs
+[2026-01-29T05:37:18.180Z] [INFO] Computing KPIs for periods {"current":"2024-01-15 ~ 2024-01-21","previous":"2024-01-08 ~ 2024-01-14","currentCount":98,"previousCount":98}
+[2026-01-29T05:37:18.180Z] [INFO] KPIs computed {"count":10}
+[2026-01-29T05:37:18.180Z] [INFO] Building XLSX report
+[2026-01-29T05:37:18.283Z] [INFO] Python XLSX generator completed successfully
+[2026-01-29T05:37:18.283Z] [INFO] Report generated {"path":"/Users/hal/Moltbot/skills/kpi_reporter/runs/20260129_053718_ejt7jh/report.xlsx"}
+[2026-01-29T05:37:18.292Z] [INFO] Dry run mode - skipping Slack notification
+[2026-01-29T05:37:18.292Z] [INFO] Pipeline completed successfully {"durationMs":122}

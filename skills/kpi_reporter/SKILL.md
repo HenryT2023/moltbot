@@ -1,7 +1,7 @@
 ---
 name: kpi_reporter
 description: 自动化 KPI 报表生成与推送。支持从本地 CSV/JSON 数据源抓取数据，计算 KPI 指标，生成 Excel 报表，并推送摘要到 Slack。支持定时（cron）和手动触发。
-metadata: {"moltbot":{"emoji":"📈","requires":{"config":["channels.slack"]}}}
+metadata: {"moltbot":{"emoji":"📈","requires":{"bins":["node","python3"]}}}
 ---
 
 # KPI Reporter
@@ -42,31 +42,31 @@ npx tsx src/index.ts --time_window yesterday --slack_channel "#growth"
 
 ### 1. 生成昨日 KPI 报表并发送到指定频道
 
-```
+```text
 生成昨天的KPI报表并发到 #growth
 ```
 
 ### 2. 生成上周报表（dry run 模式，不实际发送）
 
-```
+```text
 生成上周KPI报表，dry run
 ```
 
 ### 3. 生成近7天报表并 @提醒指定人员
 
-```
+```text
 生成近7天KPI报表，发到 #ops 并 @peter
 ```
 
 ### 4. 生成本月报表
 
-```
+```text
 生成本月KPI报表
 ```
 
 ### 5. 自定义日期范围
 
-```
+```text
 生成2024-01-01到2024-01-15的KPI报表
 ```
 
@@ -88,7 +88,7 @@ npx tsx src/index.ts --time_window yesterday --slack_channel "#growth"
 ### 参数说明
 
 | 参数 | 类型 | 必填 | 说明 |
-|------|------|------|------|
+| ---- | ---- | ---- | ---- |
 | time_window | string/object | 是 | 时间窗口：yesterday/last_7_days/last_week/this_month 或 {start, end} |
 | datasource | string | 否 | 数据源，默认 local_files |
 | output | object | 否 | 输出格式，默认 {xlsx: true, slack: true} |
@@ -99,7 +99,7 @@ npx tsx src/index.ts --time_window yesterday --slack_channel "#growth"
 
 每次运行会在 `runs/<run_id>/` 目录下生成：
 
-```
+```text
 runs/
   2024-01-15_143022_abc123/
     raw/                    # 原始数据快照
