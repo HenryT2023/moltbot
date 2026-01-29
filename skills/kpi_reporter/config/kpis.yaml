@@ -1,0 +1,68 @@
+# KPI 定义配置
+# 支持的表达式类型：sum, count, avg, ratio
+
+kpis:
+  - name: "Leads"
+    expr: "sum"
+    filter:
+      metric: "leads"
+    description: "总线索数"
+
+  - name: "Customers"
+    expr: "sum"
+    filter:
+      metric: "customers"
+    description: "新客户数"
+
+  - name: "Spend"
+    expr: "sum"
+    filter:
+      metric: "ad_spend"
+    description: "广告支出"
+
+  - name: "Revenue"
+    expr: "sum"
+    filter:
+      metric: "revenue"
+    description: "总收入"
+
+  - name: "Orders"
+    expr: "sum"
+    filter:
+      metric: "orders"
+    description: "订单数"
+
+  - name: "PageViews"
+    expr: "sum"
+    filter:
+      metric: "page_views"
+    description: "页面浏览量"
+
+  - name: "Sessions"
+    expr: "sum"
+    filter:
+      metric: "sessions"
+    description: "会话数"
+
+  - name: "CAC"
+    expr: "ratio"
+    numerator: "Spend"
+    denominator: "Customers"
+    description: "客户获取成本"
+
+  - name: "ConversionRate"
+    expr: "ratio"
+    numerator: "Customers"
+    denominator: "Leads"
+    description: "转化率"
+
+  - name: "ARPU"
+    expr: "ratio"
+    numerator: "Revenue"
+    denominator: "Customers"
+    description: "每用户平均收入"
+
+# 环比计算配置
+comparison:
+  enabled: true
+  type: "period_over_period"  # 与上一个同等时间段对比

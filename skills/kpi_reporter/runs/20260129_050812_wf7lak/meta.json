@@ -1,0 +1,18 @@
+{
+  "runId": "20260129_050812_wf7lak",
+  "startTime": "2026-01-29T05:08:12.828Z",
+  "timeWindow": {
+    "start": "2026-01-21",
+    "end": "2026-01-27",
+    "label": "近7天"
+  },
+  "datasource": "local_files",
+  "success": false,
+  "files": {
+    "raw": [],
+    "processed": "/Users/hal/Moltbot/skills/kpi_reporter/runs/20260129_050812_wf7lak/processed/data.json"
+  },
+  "error": "未找到任何数据文件或数据为空",
+  "endTime": "2026-01-29T05:08:12.833Z",
+  "durationMs": 5
+}

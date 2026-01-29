@@ -1,0 +1,20 @@
+{
+  "runId": "20260129_050829_5ss3p3",
+  "startTime": "2026-01-29T05:08:29.435Z",
+  "timeWindow": {
+    "start": "2024-01-07",
+    "end": "2024-01-20",
+    "label": "2024-01-08 至 2024-01-21"
+  },
+  "datasource": "local_files",
+  "success": false,
+  "files": {
+    "raw": [
+      "/Users/hal/Moltbot/skills/kpi_reporter/runs/20260129_050829_5ss3p3/raw/raw_data.json"
+    ],
+    "processed": "/Users/hal/Moltbot/skills/kpi_reporter/runs/20260129_050829_5ss3p3/processed/data.json"
+  },
+  "error": "XLSX 生成失败 (exit code 1): 缺少依赖: Unable to import required dependencies:\nnumpy: Error importing numpy: you should not try to import numpy from\n        its source directory; please exit the numpy source tree, and relaunch\n        your python interpreter from there.\n请运行: pip install pandas openpyxl\n",
+  "endTime": "2026-01-29T05:08:29.463Z",
+  "durationMs": 28
+}

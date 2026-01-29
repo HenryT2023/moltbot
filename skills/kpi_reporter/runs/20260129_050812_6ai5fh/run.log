@@ -1,0 +1,10 @@
+[2026-01-29T05:08:12.834Z] [INFO] Pipeline started {"runId":"20260129_050812_6ai5fh","args":"{\"time_window\":\"last_week\",\"datasource\":\"local_files\",\"output\":{\"xlsx\":true,\"html\":false,\"slack\":false},\"dry_run\":true}"}
+[2026-01-29T05:08:12.834Z] [INFO] Time window resolved {"label":"上周","range":"2026-01-19 ~ 2026-01-25"}
+[2026-01-29T05:08:12.834Z] [INFO] Fetching data from datasource {"datasource":"local_files"}
+[2026-01-29T05:08:12.834Z] [INFO] Found CSV files {"count":4,"files":["/Users/hal/Moltbot/skills/kpi_reporter/data/sample_ads.csv","/Users/hal/Moltbot/skills/kpi_reporter/data/sample_crm.csv","/Users/hal/Moltbot/skills/kpi_reporter/data/sample_orders.csv","/Users/hal/Moltbot/skills/kpi_reporter/data/sample_web.csv"]}
+[2026-01-29T05:08:12.835Z] [INFO] Parsed CSV file {"file":"/Users/hal/Moltbot/skills/kpi_reporter/data/sample_ads.csv","source":"ads","recordCount":56}
+[2026-01-29T05:08:12.835Z] [INFO] Parsed CSV file {"file":"/Users/hal/Moltbot/skills/kpi_reporter/data/sample_crm.csv","source":"crm","recordCount":28}
+[2026-01-29T05:08:12.836Z] [INFO] Parsed CSV file {"file":"/Users/hal/Moltbot/skills/kpi_reporter/data/sample_orders.csv","source":"orders","recordCount":56}
+[2026-01-29T05:08:12.836Z] [INFO] Parsed CSV file {"file":"/Users/hal/Moltbot/skills/kpi_reporter/data/sample_web.csv","source":"web","recordCount":56}
+[2026-01-29T05:08:12.836Z] [INFO] Total records fetched {"count":0}
+[2026-01-29T05:08:12.836Z] [ERROR] Pipeline failed {"error":"未找到任何数据文件或数据为空","stack":"Error: 未找到任何数据文件或数据为空\n    at runPipeline (/Users/hal/Moltbot/skills/kpi_reporter/src/pipeline/run_pipeline.ts:108:13)\n    at async runSmokeTest (/Users/hal/Moltbot/skills/kpi_reporter/tests/test_pipeline_smoke.ts:29:22)"}

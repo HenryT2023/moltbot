@@ -1,0 +1,47 @@
+# 数据源字段映射配置
+# 将不同数据源的字段名映射为标准 schema
+
+# 标准 schema:
+# - date: YYYY-MM-DD
+# - source: enum {crm, ads, web, orders}
+# - metric: string
+# - value: number
+# - dims: JSON (optional)
+
+sources:
+  crm:
+    file_pattern: "*_crm.csv"
+    columns:
+      date: "date"
+      metric: "metric_name"
+      value: "metric_value"
+    default_dims: {}
+
+  ads:
+    file_pattern: "*_ads.csv"
+    columns:
+      date: "date"
+      metric: "metric_name"
+      value: "metric_value"
+    dims_columns:
+      campaign: "campaign"
+      channel: "channel"
+
+  web:
+    file_pattern: "*_web.csv"
+    columns:
+      date: "date"
+      metric: "metric_name"
+      value: "metric_value"
+    dims_columns:
+      page: "page"
+
+  orders:
+    file_pattern: "*_orders.csv"
+    columns:
+      date: "date"
+      metric: "metric_name"
+      value: "metric_value"
+    dims_columns:
+      product: "product"
+      region: "region"

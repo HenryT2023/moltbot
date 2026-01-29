@@ -1,0 +1,21 @@
+{
+  "runId": "20260129_050848_2slqzz",
+  "startTime": "2026-01-29T05:08:48.312Z",
+  "timeWindow": {
+    "start": "2024-01-14",
+    "end": "2024-01-20",
+    "label": "2024-01-15 至 2024-01-21"
+  },
+  "datasource": "local_files",
+  "success": true,
+  "files": {
+    "raw": [
+      "/Users/hal/Moltbot/skills/kpi_reporter/runs/20260129_050848_2slqzz/raw/raw_data.json"
+    ],
+    "processed": "/Users/hal/Moltbot/skills/kpi_reporter/runs/20260129_050848_2slqzz/processed/data.json",
+    "report": "/Users/hal/Moltbot/skills/kpi_reporter/runs/20260129_050848_2slqzz/report.xlsx",
+    "slackMessage": "/Users/hal/Moltbot/skills/kpi_reporter/runs/20260129_050848_2slqzz/slack_message.txt"
+  },
+  "endTime": "2026-01-29T05:08:48.472Z",
+  "durationMs": 160
+}

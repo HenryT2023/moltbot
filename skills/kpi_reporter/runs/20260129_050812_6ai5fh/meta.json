@@ -1,0 +1,18 @@
+{
+  "runId": "20260129_050812_6ai5fh",
+  "startTime": "2026-01-29T05:08:12.834Z",
+  "timeWindow": {
+    "start": "2026-01-18",
+    "end": "2026-01-25",
+    "label": "上周"
+  },
+  "datasource": "local_files",
+  "success": false,
+  "files": {
+    "raw": [],
+    "processed": "/Users/hal/Moltbot/skills/kpi_reporter/runs/20260129_050812_6ai5fh/processed/data.json"
+  },
+  "error": "未找到任何数据文件或数据为空",
+  "endTime": "2026-01-29T05:08:12.836Z",
+  "durationMs": 2
+}

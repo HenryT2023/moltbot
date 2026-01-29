@@ -1,0 +1,18 @@
+[2026-01-29T05:08:29.435Z] [INFO] Pipeline started {"runId":"20260129_050829_5ss3p3","args":"{\"time_window\":{\"start\":\"2024-01-08\",\"end\":\"2024-01-21\"},\"datasource\":\"local_files\",\"output\":{\"xlsx\":true,\"html\":false,\"slack\":false},\"dry_run\":true}"}
+[2026-01-29T05:08:29.436Z] [INFO] Time window resolved {"label":"2024-01-08 至 2024-01-21","range":"2024-01-08 ~ 2024-01-21"}
+[2026-01-29T05:08:29.436Z] [INFO] Fetching data from datasource {"datasource":"local_files"}
+[2026-01-29T05:08:29.436Z] [INFO] Found CSV files {"count":4,"files":["/Users/hal/Moltbot/skills/kpi_reporter/data/sample_ads.csv","/Users/hal/Moltbot/skills/kpi_reporter/data/sample_crm.csv","/Users/hal/Moltbot/skills/kpi_reporter/data/sample_orders.csv","/Users/hal/Moltbot/skills/kpi_reporter/data/sample_web.csv"]}
+[2026-01-29T05:08:29.436Z] [INFO] Parsed CSV file {"file":"/Users/hal/Moltbot/skills/kpi_reporter/data/sample_ads.csv","source":"ads","recordCount":56}
+[2026-01-29T05:08:29.436Z] [INFO] Parsed CSV file {"file":"/Users/hal/Moltbot/skills/kpi_reporter/data/sample_crm.csv","source":"crm","recordCount":28}
+[2026-01-29T05:08:29.437Z] [INFO] Parsed CSV file {"file":"/Users/hal/Moltbot/skills/kpi_reporter/data/sample_orders.csv","source":"orders","recordCount":56}
+[2026-01-29T05:08:29.437Z] [INFO] Parsed CSV file {"file":"/Users/hal/Moltbot/skills/kpi_reporter/data/sample_web.csv","source":"web","recordCount":56}
+[2026-01-29T05:08:29.437Z] [INFO] Total records fetched {"count":196}
+[2026-01-29T05:08:29.438Z] [INFO] Raw data saved {"count":196,"path":"/Users/hal/Moltbot/skills/kpi_reporter/runs/20260129_050829_5ss3p3/raw/raw_data.json"}
+[2026-01-29T05:08:29.438Z] [INFO] Normalizing data
+[2026-01-29T05:08:29.438Z] [INFO] Data normalized {"count":196}
+[2026-01-29T05:08:29.438Z] [INFO] Computing KPIs
+[2026-01-29T05:08:29.439Z] [INFO] Computing KPIs for periods {"current":"2024-01-08 ~ 2024-01-21","previous":"2023-12-25 ~ 2024-01-07","currentCount":196,"previousCount":0}
+[2026-01-29T05:08:29.439Z] [INFO] KPIs computed {"count":10}
+[2026-01-29T05:08:29.439Z] [INFO] Building XLSX report
+[2026-01-29T05:08:29.463Z] [ERROR] Python XLSX generator failed {"code":1,"stderr":"缺少依赖: Unable to import required dependencies:\nnumpy: Error importing numpy: you should not try to import numpy from\n        its source directory; please exit the numpy source tree, and relaunch\n        your python interpreter from there.\n请运行: pip install pandas openpyxl\n"}
+[2026-01-29T05:08:29.463Z] [ERROR] Pipeline failed {"error":"XLSX 生成失败 (exit code 1): 缺少依赖: Unable to import required dependencies:\nnumpy: Error importing numpy: you should not try to import numpy from\n        its source directory; please exit the numpy source tree, and relaunch\n        your python interpreter from there.\n请运行: pip install pandas openpyxl\n","stack":"Error: XLSX 生成失败 (exit code 1): 缺少依赖: Unable to import required dependencies:\nnumpy: Error importing numpy: you should not try to import numpy from\n        its source directory; please exit the numpy source tree, and relaunch\n        your python interpreter from there.\n请运行: pip install pandas openpyxl\n\n    at ChildProcess.<anonymous> (/Users/hal/Moltbot/skills/kpi_reporter/src/pipeline/report/build_xlsx.ts:101:16)\n    at ChildProcess.emit (node:events:508:28)\n    at maybeClose (node:internal/child_process:1101:16)\n    at ChildProcess._handle.onexit (node:internal/child_process:305:5)"}
