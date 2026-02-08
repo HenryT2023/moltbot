@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "skills": {
+    "polymarket-agent": {
+      "version": "1.0.2",
+      "installedAt": 1770211223805
+    },
+    "moltbook-interact": {
+      "version": "1.0.1",
+      "installedAt": 1770211553387
+    },
+    "yahoo-finance": {
+      "version": "1.0.0",
+      "installedAt": 1770434395088
+    },
+    "hyperliquid": {
+      "version": "1.0.0",
+      "installedAt": 1770434405351
+    },
+    "brave-search": {
+      "version": "1.0.1",
+      "installedAt": 1770434414541
+    },
+    "agent-relay-digest": {
+      "version": "0.1.0",
+      "installedAt": 1770434434187
+    },
+    "agent-browser": {
+      "version": "0.2.0",
+      "installedAt": 1770434445718
+    },
+    "agent-memory": {
+      "version": "1.0.0",
+      "installedAt": 1770434447352
+    },
+    "cuecue-deep-research": {
+      "version": "1.0.4",
+      "installedAt": 1770436191487
+    },
+    "exa": {
+      "version": "0.0.2",
+      "installedAt": 1770436192828
+    },
+    "grok-search": {
+      "version": "0.2.1",
+      "installedAt": 1770436203304
+    },
+    "input-guard": {
+      "version": "1.0.1",
+      "installedAt": 1770436203338
+    },
+    "n8n": {
+      "version": "1.0.2",
+      "installedAt": 1770436221271
+    },
+    "cron-retry": {
+      "version": "1.0.0",
+      "installedAt": 1770436221657
+    },
+    "agent-task-manager": {
+      "version": "1.0.0",
+      "installedAt": 1770436222720
+    },
+    "ggshield-scanner": {
+      "version": "1.0.2",
+      "installedAt": 1770436231095
+    },
+    "manipulation-detector": {
+      "version": "1.0.0",
+      "installedAt": 1770436231649
+    },
+    "okx": {
+      "version": "1.1.0",
+      "installedAt": 1770466637247
+    },
+    "ethereum-wingman": {
+      "version": "0.1.0",
+      "installedAt": 1770466646833
+    },
+    "defi": {
+      "version": "1.1.1",
+      "installedAt": 1770466654879
+    },
+    "crypto-price": {
+      "version": "0.2.2",
+      "installedAt": 1770466664877
+    },
+    "dex-multichain-aggregator-teneo": {
+      "version": "1.0.3",
+      "installedAt": 1770466672534
+    },
+    "zapper": {
+      "version": "1.0.0",
+      "installedAt": 1770466680745
+    },
+    "crypto-agent-payments": {
+      "version": "0.1.7",
+      "installedAt": 1770466694035
+    }
+  }
+}
