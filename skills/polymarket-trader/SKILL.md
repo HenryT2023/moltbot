@@ -32,7 +32,7 @@ metadata:
 扫描 Polymarket 活跃市场。
 
 ```bash
-cd /Users/tangheng/CascadeProjects && source polymarket-venv/bin/activate && python market_scanner.py
+cd /Users/tangheng/HenryBot && source polymarket-venv/bin/activate && python market_scanner.py
 ```
 
 ### poly_trade
@@ -40,7 +40,7 @@ cd /Users/tangheng/CascadeProjects && source polymarket-venv/bin/activate && pyt
 执行一次交易周期并发送 Telegram 报告。
 
 ```bash
-cd /Users/tangheng/CascadeProjects && source polymarket-venv/bin/activate && python polymarket_cron.py
+cd /Users/tangheng/HenryBot && source polymarket-venv/bin/activate && python polymarket_cron.py
 ```
 
 ### poly_positions
@@ -48,7 +48,7 @@ cd /Users/tangheng/CascadeProjects && source polymarket-venv/bin/activate && pyt
 查看当前持仓和交易历史。
 
 ```bash
-cd /Users/tangheng/CascadeProjects && source polymarket-venv/bin/activate && python -c "
+cd /Users/tangheng/HenryBot && source polymarket-venv/bin/activate && python -c "
 from py_clob_client.client import ClobClient
 from py_clob_client.clob_types import ApiCreds
 import config
