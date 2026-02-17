@@ -17,7 +17,7 @@ from typing import Any, Dict, List, Optional
 from PIL import Image, ImageOps
 from PIL.ExifTags import TAGS, GPSTAGS
 
-from .. import config
+import config
 
 try:
     from pillow_heif import register_heif_opener

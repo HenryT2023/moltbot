@@ -14,7 +14,7 @@ from typing import Any, Callable, Dict, List, Optional
 
 from google import genai
 
-from .. import config
+import config
 
 logger = logging.getLogger("p2m.analyzer")
 

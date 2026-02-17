@@ -20,7 +20,7 @@ from typing import Any, Callable, Dict, List, Optional
 
 import requests
 
-from .. import config
+import config
 
 logger = logging.getLogger("p2m.video_gen")
 

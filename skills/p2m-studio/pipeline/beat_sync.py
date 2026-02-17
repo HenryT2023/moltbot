@@ -10,7 +10,7 @@ import logging
 from pathlib import Path
 from typing import Any, Callable, Dict, List, Optional, Tuple
 
-from .. import config
+import config
 
 logger = logging.getLogger("p2m.beat_sync")
 

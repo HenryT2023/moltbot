@@ -12,7 +12,7 @@ import shlex
 from pathlib import Path
 from typing import Any, Callable, Dict, List, Optional
 
-from .. import config
+import config
 
 logger = logging.getLogger("p2m.renderer")
 
