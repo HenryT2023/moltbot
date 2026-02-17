@@ -7,14 +7,11 @@ import os
 import json
 import time
 import requests
-from google import genai
-from google.genai import types
-
-import config
+import google.generativeai as genai
 
 # ================= 配置区 =================
-GEMINI_API_KEY = config.GEMINI_API_KEY
-BRAVE_API_KEY = config.BRAVE_API_KEY
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
+BRAVE_API_KEY = os.environ.get("BRAVE_API_KEY", "")
 MODEL_NAME = "gemini-3-flash-preview"  # 最新模型，知识截止2025年1月，支持思考模式
 
 # 套利参数
@@ -108,7 +105,8 @@ def analyze_market_with_gemini(market_question, market_description, current_pric
         dict: 分析结果
     """
     # 1. 初始化客户端
-    client = genai.Client(api_key=GEMINI_API_KEY)
+    genai.configure(api_key=GEMINI_API_KEY)
+    model = genai.GenerativeModel(MODEL_NAME)
     
     # 2. 获取外部信息 (RAG 增强)
     news_context = search_news(market_question)
@@ -152,10 +150,9 @@ def analyze_market_with_gemini(market_question, market_description, current_pric
     print(f"🤖 Gemini ({MODEL_NAME}) 正在推理...")
     
     try:
-        response = client.models.generate_content(
-            model=MODEL_NAME,
-            contents=prompt,
-            config=types.GenerateContentConfig(
+        response = model.generate_content(
+            prompt,
+            generation_config=genai.types.GenerationConfig(
                 temperature=0.2  # 降低幻觉，提高理性
             )
         )
