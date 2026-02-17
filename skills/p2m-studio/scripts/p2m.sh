@@ -10,13 +10,15 @@ set -e
 export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
-P2M_ROOT="$(cd "$SCRIPT_DIR/../../../.." && pwd)"
-PYTHON="/usr/bin/python3"
+SKILL_DIR="$(cd "$SCRIPT_DIR/.." && pwd)"
 
-# Check if running on Mac Mini (production)
-if [ -d "$HOME/HenryBot/p2m_studio" ]; then
-    P2M_ROOT="$HOME/HenryBot"
+# Use Python 3.11 on macmini, fallback to python3
+if [ -x "/opt/homebrew/bin/python3.11" ]; then
+    PYTHON="/opt/homebrew/bin/python3.11"
+else
+    PYTHON="python3"
 fi
 
-cd "$P2M_ROOT"
-exec "$PYTHON" -m p2m_studio.cli "$@"
+cd "$SKILL_DIR"
+export PYTHONPATH="$SKILL_DIR:$PYTHONPATH"
+exec "$PYTHON" -m cli "$@"

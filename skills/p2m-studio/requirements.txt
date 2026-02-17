@@ -1,0 +1,10 @@
+# P2M Studio - Photo-to-Movie Pipeline
+# Python 3.9+ compatible
+
+Pillow>=10.0
+pillow-heif>=0.18
+imagehash>=4.3
+edge-tts>=6.1
+pydub>=0.25
+ffmpeg-python>=0.2
+google-genai>=1.0

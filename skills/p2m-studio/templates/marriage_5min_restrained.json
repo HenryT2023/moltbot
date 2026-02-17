@@ -1,0 +1,95 @@
+{
+  "id": "marriage_5min_restrained",
+  "name": "Marriage Memorial 5min Restrained",
+  "name_zh": "成熟婚姻纪念 5分钟 克制深情",
+  "description": "For 5-25 year marriage anniversary. Mature, restrained tone.",
+  "target_duration_sec": 300,
+  "acts": [
+    {
+      "id": "act_01",
+      "name": "encounter",
+      "name_zh": "相遇",
+      "weight": 0.15,
+      "description": "First meeting, early dating",
+      "keywords": ["dating", "young", "first", "love", "meet", "couple_dating"],
+      "narration_prompt": "用简短克制的语句描述初遇的美好，不要煽情，像是多年后回忆时的淡然微笑。2-3句话，总计不超过40字。",
+      "music_mood": "gentle_piano",
+      "transition": "fade_from_black"
+    },
+    {
+      "id": "act_02",
+      "name": "growth",
+      "name_zh": "成长",
+      "weight": 0.20,
+      "description": "Shared experiences, travel, daily life",
+      "keywords": ["travel", "daily", "together", "trip", "adventure", "outdoor", "travel_outdoor", "daily_life"],
+      "narration_prompt": "描述那些平凡却珍贵的日常，语气像翻老相册时的低声自语。2-3句话，总计不超过50字。",
+      "music_mood": "warm_strings",
+      "transition": "crossfade"
+    },
+    {
+      "id": "act_03",
+      "name": "wedding",
+      "name_zh": "婚礼",
+      "weight": 0.15,
+      "description": "Wedding, ceremony, ritual moments",
+      "keywords": ["wedding", "ceremony", "dress", "ring", "vow", "wedding_ceremony", "celebration"],
+      "narration_prompt": "婚礼是承诺的仪式，用郑重但不浮夸的语气。2-3句话，总计不超过40字。",
+      "music_mood": "orchestral_gentle",
+      "transition": "crossfade"
+    },
+    {
+      "id": "act_04",
+      "name": "family",
+      "name_zh": "家庭",
+      "weight": 0.20,
+      "description": "Children, family life",
+      "keywords": ["child", "family", "home", "baby", "kid", "parent", "family_life"],
+      "narration_prompt": "家庭是最柔软的部分，语气温暖但节制，像父亲写给孩子的信。2-3句话，总计不超过50字。",
+      "music_mood": "warm_acoustic",
+      "transition": "crossfade"
+    },
+    {
+      "id": "act_05",
+      "name": "present",
+      "name_zh": "现在",
+      "weight": 0.20,
+      "description": "Recent life",
+      "keywords": ["recent", "current", "now", "today", "selfie", "portrait"],
+      "narration_prompt": "描述当下的状态，平静、踏实、不需要证明什么。2-3句话，总计不超过50字。",
+      "music_mood": "ambient_calm",
+      "transition": "crossfade"
+    },
+    {
+      "id": "act_06",
+      "name": "future",
+      "name_zh": "未来",
+      "weight": 0.10,
+      "description": "Looking forward",
+      "keywords": ["future", "hope", "dream"],
+      "narration_prompt": "简短的展望，不要鸡汤，像两个老朋友的默契——继续走吧。1-2句话，总计不超过30字。",
+      "music_mood": "piano_resolve",
+      "transition": "fade_to_black",
+      "ai_generated_images": false
+    }
+  ],
+  "style": {
+    "vo_voice": "zh-CN-XiaoxiaoNeural",
+    "vo_rate": "-5%",
+    "vo_pitch": "+0Hz",
+    "subtitle_font": "Noto Sans SC",
+    "subtitle_size": 42,
+    "subtitle_color": "#FFFFFF",
+    "subtitle_shadow": true,
+    "transition_default": "crossfade",
+    "transition_duration": 0.8,
+    "ken_burns_intensity": 0.15,
+    "color_grade": "warm_vintage"
+  },
+  "music": {
+    "default_track": "builtin/classical_piano_01.mp3",
+    "ducking_enabled": true,
+    "duck_volume": 0.1,
+    "duck_fade_ms": 500
+  }
+}

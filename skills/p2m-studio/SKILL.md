@@ -23,7 +23,7 @@ Save each photo the user sent into that directory as JPG/PNG files. Remember the
 Run the generation script. Use `--moltbot` for machine-readable output:
 
 ```bash
-bash ~/HenryBot/moltbot/skills/p2m-studio/scripts/p2m.sh generate --input "{photosDir}" --output "/tmp/p2m_output_$$" --moltbot
+bash ~/moltbot/skills/p2m-studio/scripts/p2m.sh generate --input "{photosDir}" --output "/tmp/p2m_output_$$" --moltbot
 ```
 
 The pipeline takes 1-3 minutes. It will:
@@ -48,12 +48,12 @@ Parse stdout for protocol lines:
 
 Custom duration (seconds):
 ```bash
-bash ~/HenryBot/moltbot/skills/p2m-studio/scripts/p2m.sh generate --input "{photosDir}" --output "/tmp/p2m_output_$$" --duration 300 --moltbot
+bash ~/moltbot/skills/p2m-studio/scripts/p2m.sh generate --input "{photosDir}" --output "/tmp/p2m_output_$$" --duration 300 --moltbot
 ```
 
 Custom template:
 ```bash
-bash ~/HenryBot/moltbot/skills/p2m-studio/scripts/p2m.sh generate --input "{photosDir}" --output "/tmp/p2m_output_$$" --template marriage_5min_restrained --moltbot
+bash ~/moltbot/skills/p2m-studio/scripts/p2m.sh generate --input "{photosDir}" --output "/tmp/p2m_output_$$" --template marriage_5min_restrained --moltbot
 ```
 
 ## Notes
