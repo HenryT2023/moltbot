@@ -15,9 +15,9 @@ import sys
 import time
 from pathlib import Path
 
-from . import config
-from .pipeline import importer, analyzer, storyboard, scripter, music, renderer
-from .pipeline import video_gen, beat_sync, composer
+import config
+from pipeline import importer, analyzer, storyboard, scripter, music, renderer
+from pipeline import video_gen, beat_sync, composer
 
 logging.basicConfig(
     level=logging.INFO,

@@ -20,5 +20,4 @@ else
 fi
 
 cd "$SKILL_DIR"
-export PYTHONPATH="$SKILL_DIR:$PYTHONPATH"
-exec "$PYTHON" -m cli "$@"
+exec "$PYTHON" cli.py "$@"
