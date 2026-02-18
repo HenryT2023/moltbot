@@ -1885,9 +1885,11 @@ def execute_trade(client: ClobClient, opp: dict) -> Optional[dict]:
     print(f"   📊 [{trade_type}] 中间价: ${mid_price:.3f}, 限价单: ${execution_price:.2f} (mid+{LIMIT_PRICE_OFFSET})")
     
     # 重新计算数量 - 精度限制：价格2位，数量取整数
+    # Polymarket 最小订单数量为 5
+    MIN_ORDER_SIZE = 5
     size = int(position / execution_price)
-    if size < 1:
-        size = 1
+    if size < MIN_ORDER_SIZE:
+        size = MIN_ORDER_SIZE
     
     # 创建订单
     order_args = OrderArgs(
