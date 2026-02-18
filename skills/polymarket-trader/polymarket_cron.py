@@ -87,19 +87,19 @@ DRY_RUN = False
 
 # 收割者策略参数 (核心策略)
 HARVESTER_THRESHOLD = 0.995  # Yes + No < 99.5% 时触发套利 (放宽)
-HARVESTER_BET_PER_SIDE = 2.0 # 每边下注金额 $2 (总投入 $4)
+HARVESTER_BET_PER_SIDE = 5.0 # 每边下注金额 $5 (总投入 $10) - Polymarket最小5
 HARVESTER_MIN_PROFIT = 0.001 # 最小利润 0.1 美分
 HARVESTER_MAX_TRADES = 3     # 每周期最多套利次数 (降低)
 
 # 清洁工策略参数 (押注"永远不会发生的事")
 CLEANER_MIN_NO_PRICE = 0.94  # NO 价格 >= 94% 才买入
-CLEANER_MAX_BET = 2.0        # 清洁工单笔最大 $2 (降低)
+CLEANER_MAX_BET = 5.0        # 清洁工单笔最大 $5 - Polymarket最小5
 CLEANER_MAX_TRADES = 3       # 每周期最多清洁工交易
 
 # 钓鱼者策略参数 (做市商策略 - Spread Fishing)
 # 原理：在买卖价差大的市场双向挂单，赚取价差
 FISHER_MIN_SPREAD = 0.05     # 最小价差 5% 才值得做市
-FISHER_BET_SIZE = 2.0        # 每边挂单金额 $2
+FISHER_BET_SIZE = 5.0        # 每边挂单金额 $5 - Polymarket最小5
 FISHER_EDGE_FROM_MID = 0.02  # 距离中间价的偏移 2%
 FISHER_MAX_TRADES = 1        # 每周期最多做市次数 (降低)
 FISHER_ENABLED = False       # 暂时禁用钓鱼者策略
@@ -107,7 +107,7 @@ FISHER_ENABLED = False       # 暂时禁用钓鱼者策略
 # 捡漏者策略参数 (低价挂单等待砸盘)
 # 原理：在市场价 -5% 位置挂买单，等待恐慌性抛售
 BARGAIN_DISCOUNT = 0.05      # 低于市场价 5% 挂单
-BARGAIN_BET_SIZE = 2.0       # 每笔挂单金额 $2
+BARGAIN_BET_SIZE = 5.0       # 每笔挂单金额 $5 - Polymarket最小5
 BARGAIN_MAX_TRADES = 2       # 每周期最多挂单数 (降低)
 BARGAIN_MIN_VOLUME = 1000    # 最小交易量要求 (过滤冷门市场)
 
@@ -116,8 +116,8 @@ MIN_VOLUME_24H = 5000        # 最小24小时交易量 $5000 (过滤冷门市场
 BARGAIN_ENABLED = True       # 启用捡漏者策略
 
 # 卖出策略参数
-SELL_TARGET_PROFIT_PCT = 0.00   # 目标利润: 1美分即卖 (高频模式)
-SELL_MIN_BID_PRICE = 0.05       # 最低 bid 价格 (低于此价格不卖)
+SELL_TARGET_PROFIT_PCT = 0.00   # 目标利润: 有盈利就卖
+SELL_MIN_BID_PRICE = 0.01       # 最低 bid 价格 (降低限制)
 SELL_LIMIT_PRICE_OFFSET = 0.00  # 挂单价格偏移 (0 = 按目标价挂单)
 
 # AI 信号策略参数 (辅助策略)
@@ -511,6 +511,7 @@ def analyze_positions_for_sell(client: ClobClient) -> List[dict]:
             positions[token_id]['trades'].append(t)
         
         # 分析每个持仓的卖出机会
+        print(f"   📊 分析 {len(positions)} 个持仓...")
         for token_id, pos in positions.items():
             net_qty = pos['buy_qty'] - pos['sell_qty']
             if net_qty <= 0:
@@ -535,6 +536,10 @@ def analyze_positions_for_sell(client: ClobClient) -> List[dict]:
             # 安全检查
             if avg_cost <= 0:
                 continue
+            
+            # 调试日志：显示每个持仓状态
+            profit_pct_debug = (current_bid - avg_cost) / avg_cost * 100 if current_bid > 0 and avg_cost > 0 else 0
+            print(f"      • {pos['outcome']} x{net_qty:.0f}: cost=${avg_cost:.3f} bid=${current_bid:.3f} ({profit_pct_debug:+.1f}%)")
             
             # 计算当前利润率
             profit_pct = (current_bid - avg_cost) / avg_cost if current_bid > 0 and avg_cost > 0 else 0
@@ -591,8 +596,8 @@ def analyze_positions_for_sell(client: ClobClient) -> List[dict]:
                 limit_price = round(current_bid - 0.005, 3)  # 略低于当前价确保成交
                 reason = f"NO 接近结算 (bid=${current_bid:.3f})"
             
-            # 条件2: 当前 bid > 成本，有盈利就立即卖出
-            elif current_bid > avg_cost and current_bid >= SELL_MIN_BID_PRICE:
+            # 条件2: 当前 bid > 成本，有盈利就立即卖出 (不限制最低bid)
+            elif current_bid > avg_cost:
                 sell_type = 'IMMEDIATE'
                 limit_price = round(current_bid - 0.005, 3)
                 reason = f"有盈利立即卖 (+{profit_pct:.1%})"
