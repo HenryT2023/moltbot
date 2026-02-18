@@ -71,7 +71,7 @@ MAX_POSITION_PCT = 0.80      # 最大仓位比例 80%
 MAX_TOTAL_POSITION = TOTAL_CAPITAL * MAX_POSITION_PCT  # $160
 MAX_SINGLE_POSITION = 30.0   # 单票最大持仓 $30
 MIN_AVAILABLE_BALANCE = 20.0 # 最小可用余额，低于此值停止开仓
-MAX_POSITION_COUNT = 8       # 最大持仓数量
+MAX_POSITION_COUNT = 25      # 最大持仓数量
 COOLDOWN_HOURS = 24          # 同一市场冷却时间（小时）
 
 # ============== 止损配置 ==============
