@@ -110,6 +110,9 @@ BARGAIN_DISCOUNT = 0.05      # 低于市场价 5% 挂单
 BARGAIN_BET_SIZE = 2.0       # 每笔挂单金额 $2
 BARGAIN_MAX_TRADES = 2       # 每周期最多挂单数 (降低)
 BARGAIN_MIN_VOLUME = 1000    # 最小交易量要求 (过滤冷门市场)
+
+# ============== 24小时交易量筛选 ==============
+MIN_VOLUME_24H = 5000        # 最小24小时交易量 $5000 (过滤冷门市场)
 BARGAIN_ENABLED = True       # 启用捡漏者策略
 
 # 卖出策略参数
@@ -823,9 +826,9 @@ def find_bargain_opportunities(markets: List[dict], client: ClobClient) -> List[
     
     for market in markets:
         try:
-            # 检查交易量
-            volume = float(market.get('volume', 0) or 0)
-            if volume < BARGAIN_MIN_VOLUME:
+            # 检查24小时交易量
+            vol_24h = float(market.get('volume24hr', 0) or 0)
+            if vol_24h < MIN_VOLUME_24H:
                 continue
             
             # 获取市场的 token_id
@@ -995,6 +998,11 @@ def find_cleaner_opportunities(markets: List[dict], held_token_ids: set = None) 
         if any(tid in held_token_ids for tid in token_ids):
             continue
         
+        # 过滤低交易量市场
+        vol_24h = float(market.get('volume24hr', 0) or 0)
+        if vol_24h < MIN_VOLUME_24H:
+            continue
+        
         prices = get_market_prices(market)
         no_price = prices.get('No', 0)
         yes_price = prices.get('Yes', 1)
@@ -1041,6 +1049,11 @@ def find_harvester_opportunities(markets: List[dict], client: ClobClient, held_t
         clob_token_ids = market.get('clobTokenIds', '[]')
         token_ids_raw = json.loads(clob_token_ids) if isinstance(clob_token_ids, str) else clob_token_ids
         if any(tid in held_token_ids for tid in token_ids_raw):
+            continue
+        
+        # 过滤低交易量市场
+        vol_24h = float(market.get('volume24hr', 0) or 0)
+        if vol_24h < MIN_VOLUME_24H:
             continue
         
         prices = get_market_prices(market)
@@ -1573,6 +1586,9 @@ def run_trading_cycle(client: ClobClient) -> dict:
                 continue
             # 优先选24h交易量大的（Gamma市场有此字段）
             vol_24h = float(m.get('volume24hr', 0) or 0)
+            # 过滤低交易量市场
+            if vol_24h < MIN_VOLUME_24H:
+                continue
             ai_candidates.append((vol_24h, m))
         
         # 排序：有volume数据的优先，然后随机打散无volume的
