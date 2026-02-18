@@ -71,7 +71,7 @@ MAX_POSITION_PCT = 0.80      # 最大仓位比例 80%
 MAX_TOTAL_POSITION = TOTAL_CAPITAL * MAX_POSITION_PCT  # $160
 MAX_SINGLE_POSITION = 30.0   # 单票最大持仓 $30
 MIN_AVAILABLE_BALANCE = 20.0 # 最小可用余额，低于此值停止开仓
-MAX_POSITION_COUNT = 25      # 最大持仓数量
+MAX_POSITION_COUNT = 999     # 不限制持仓数量
 COOLDOWN_HOURS = 24          # 同一市场冷却时间（小时）
 
 # ============== 止损配置 ==============
@@ -314,12 +314,11 @@ def check_can_open_position(client: ClobClient, token_id: str, amount: float) ->
     if pos_info['total_cost'] + amount > MAX_TOTAL_POSITION:
         return False, f"总仓位超限: ${pos_info['total_cost']:.2f} + ${amount:.2f} > ${MAX_TOTAL_POSITION}"
     
-    # 3. 检查持仓数量
-    if pos_info['position_count'] >= MAX_POSITION_COUNT:
-        # 检查是否是已有持仓的加仓
-        existing = [p for p in pos_info['positions'] if p['token_id'] == token_id]
-        if not existing:
-            return False, f"持仓数量已满: {pos_info['position_count']} >= {MAX_POSITION_COUNT}"
+    # 3. 检查持仓数量 (已禁用)
+    # if pos_info['position_count'] >= MAX_POSITION_COUNT:
+    #     existing = [p for p in pos_info['positions'] if p['token_id'] == token_id]
+    #     if not existing:
+    #         return False, f"持仓数量已满: {pos_info['position_count']} >= {MAX_POSITION_COUNT}"
     
     # 4. 检查单票持仓限制
     for pos in pos_info['positions']:
@@ -1438,10 +1437,11 @@ def run_trading_cycle(client: ClobClient) -> dict:
         can_open_new = False
         skip_reason = f"总仓位已满 (${pos_info['total_cost']:.2f} >= ${MAX_TOTAL_POSITION})"
         print(f"   ⚠️ {skip_reason}")
-    elif pos_info['position_count'] >= MAX_POSITION_COUNT:
-        can_open_new = False
-        skip_reason = f"持仓数量已满 ({pos_info['position_count']} >= {MAX_POSITION_COUNT})"
-        print(f"   ⚠️ {skip_reason}")
+    # 持仓数量检查已禁用
+    # elif pos_info['position_count'] >= MAX_POSITION_COUNT:
+    #     can_open_new = False
+    #     skip_reason = f"持仓数量已满 ({pos_info['position_count']} >= {MAX_POSITION_COUNT})"
+    #     print(f"   ⚠️ {skip_reason}")
     else:
         print(f"   ✅ 可以开新仓")
     
