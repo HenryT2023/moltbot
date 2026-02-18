@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """检查持仓状态和市场结算情况"""
 import os
+import requests
 from py_clob_client.client import ClobClient
 from py_clob_client.clob_types import ApiCreds
 from collections import defaultdict
@@ -8,6 +9,8 @@ from collections import defaultdict
 # 设置代理
 os.environ['https_proxy'] = 'http://127.0.0.1:7890'
 os.environ['http_proxy'] = 'http://127.0.0.1:7890'
+
+proxies = {"http": "http://127.0.0.1:7890", "https": "http://127.0.0.1:7890"}
 
 creds = ApiCreds(
     api_key=os.environ.get("POLYMARKET_API_KEY"),
@@ -65,3 +68,14 @@ print(f"总成本: ${total_cost:.2f}")
 print(f"总估值: ${total_value:.2f}")
 print(f"总PnL: ${total_value - total_cost:.2f}")
 print("=" * 60)
+
+# 检查最近交易
+print("\n最近 5 笔交易:")
+trades_list = list(trades)[:5]
+for t in trades_list:
+    side = t.get("side")
+    size = t.get("size")
+    price = t.get("price")
+    outcome = t.get("outcome")
+    created = t.get("created_at", "")[:19]
+    print(f"  {side} {outcome} x{size} @ ${price} ({created})")
